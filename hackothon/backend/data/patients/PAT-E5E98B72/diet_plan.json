@@ -1,0 +1,62 @@
+{
+  "diet_type": "Balanced Heart-Healthy Diet",
+  "daily_calories": "1800-2200",
+  "avoid_foods": [
+    "Excessive salt",
+    "Processed foods",
+    "Sugary drinks",
+    "Trans fats",
+    "Excessive alcohol"
+  ],
+  "weekly_plan": {
+    "Monday": {
+      "breakfast": "Oatmeal with fresh berries and nuts",
+      "lunch": "Grilled chicken salad with olive oil dressing",
+      "dinner": "Baked fish with steamed vegetables and brown rice",
+      "snacks": "Greek yogurt, mixed nuts, fresh fruits"
+    },
+    "Tuesday": {
+      "breakfast": "Oatmeal with fresh berries and nuts",
+      "lunch": "Grilled chicken salad with olive oil dressing",
+      "dinner": "Baked fish with steamed vegetables and brown rice",
+      "snacks": "Greek yogurt, mixed nuts, fresh fruits"
+    },
+    "Wednesday": {
+      "breakfast": "Oatmeal with fresh berries and nuts",
+      "lunch": "Grilled chicken salad with olive oil dressing",
+      "dinner": "Baked fish with steamed vegetables and brown rice",
+      "snacks": "Greek yogurt, mixed nuts, fresh fruits"
+    },
+    "Thursday": {
+      "breakfast": "Oatmeal with fresh berries and nuts",
+      "lunch": "Grilled chicken salad with olive oil dressing",
+      "dinner": "Baked fish with steamed vegetables and brown rice",
+      "snacks": "Greek yogurt, mixed nuts, fresh fruits"
+    },
+    "Friday": {
+      "breakfast": "Oatmeal with fresh berries and nuts",
+      "lunch": "Grilled chicken salad with olive oil dressing",
+      "dinner": "Baked fish with steamed vegetables and brown rice",
+      "snacks": "Greek yogurt, mixed nuts, fresh fruits"
+    },
+    "Saturday": {
+      "breakfast": "Oatmeal with fresh berries and nuts",
+      "lunch": "Grilled chicken salad with olive oil dressing",
+      "dinner": "Baked fish with steamed vegetables and brown rice",
+      "snacks": "Greek yogurt, mixed nuts, fresh fruits"
+    },
+    "Sunday": {
+      "breakfast": "Oatmeal with fresh berries and nuts",
+      "lunch": "Grilled chicken salad with olive oil dressing",
+      "dinner": "Baked fish with steamed vegetables and brown rice",
+      "snacks": "Greek yogurt, mixed nuts, fresh fruits"
+    }
+  },
+  "tips": [
+    "Drink at least 8 glasses of water daily",
+    "Eat 5 servings of fruits and vegetables daily",
+    "Limit sodium to less than 2000mg per day",
+    "Choose whole grains over refined grains",
+    "Include omega-3 fatty acids from fish or flaxseed"
+  ]
+}

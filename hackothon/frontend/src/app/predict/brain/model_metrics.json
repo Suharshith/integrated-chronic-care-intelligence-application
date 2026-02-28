@@ -1,0 +1,66 @@
+{
+    "resnet18": {
+        "accuracy": 0.945,
+        "precision": 0.949890060311892,
+        "recall": 0.9450000000000001,
+        "f1_score": 0.9435176250142255,
+        "auc_roc": 0.9918914062499999,
+        "description": "ResNet-18 Deep Learning Model"
+    },
+    "vgg16": {
+        "accuracy": 0.929375,
+        "precision": 0.9342253629270963,
+        "recall": 0.9293750000000001,
+        "f1_score": 0.9286032485140154,
+        "auc_roc": 0.9830041666666667,
+        "description": "VGG-16 Deep Learning Model"
+    },
+    "mobilenetv2": {
+        "accuracy": 0.938125,
+        "precision": 0.9428823875316856,
+        "recall": 0.9381250000000001,
+        "f1_score": 0.9362945089248307,
+        "auc_roc": 0.9907315104166667,
+        "description": "MobileNetV2 Deep Learning Model"
+    },
+    "efficientnetb0": {
+        "accuracy": 0.94875,
+        "precision": 0.9511709829406906,
+        "recall": 0.94875,
+        "f1_score": 0.9474554738769134,
+        "auc_roc": 0.9934708333333333,
+        "description": "EfficientNet-B0 Deep Learning Model"
+    },
+    "densenet121": {
+        "accuracy": 0.9475,
+        "precision": 0.9505148542390565,
+        "recall": 0.9475,
+        "f1_score": 0.946320707432146,
+        "auc_roc": 0.9888776041666667,
+        "description": "DenseNet-121 Deep Learning Model"
+    },
+    "ml_randomforest": {
+        "accuracy": 0.949375,
+        "precision": 0.9529331697445461,
+        "recall": 0.9493750000000001,
+        "f1_score": 0.9482892620986155,
+        "auc_roc": 0.99050625,
+        "description": "Hybrid Model: DenseNet + Handcrafted + RandomForest"
+    },
+    "ml_xgboost": {
+        "accuracy": 0.9475,
+        "precision": 0.9513241708764815,
+        "recall": 0.9475,
+        "f1_score": 0.9462725915286537,
+        "auc_roc": 0.9913817708333333,
+        "description": "Hybrid Model: DenseNet + Handcrafted + XGBoost"
+    },
+    "ml_svm": {
+        "accuracy": 0.60875,
+        "precision": 0.6092944428049679,
+        "recall": 0.60875,
+        "f1_score": 0.608496533702196,
+        "auc_roc": 0.8232630208333331,
+        "description": "Hybrid Model: DenseNet + Handcrafted + SVM"
+    }
+}

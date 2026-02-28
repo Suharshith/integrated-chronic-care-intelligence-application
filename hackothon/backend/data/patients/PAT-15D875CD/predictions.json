@@ -1,0 +1,93 @@
+{
+  "heart": {
+    "disease": "Heart Disease",
+    "prediction": 1,
+    "risk_score": 0.9672,
+    "risk_percentage": 96.72,
+    "risk_level": "High",
+    "confidence": 0.9672,
+    "model_used": "XGBoost Heart Disease Model (17 features)",
+    "recommendations": [
+      "\ud83d\udea8 Immediate cardiology consultation recommended",
+      "Consider cardiac stress testing and angiography",
+      "Maintain regular cardiovascular exercise (30 min/day)",
+      "Follow a heart-healthy Mediterranean diet"
+    ]
+  },
+  "kidney": {
+    "disease": "Kidney Disease",
+    "prediction": 0,
+    "risk_score": 0.01,
+    "risk_percentage": 1.0,
+    "risk_level": "Low",
+    "confidence": 0.99,
+    "rf_probability": 0.01,
+    "cnn_probability": null,
+    "ensemble": false,
+    "model_used": "Random Forest (24 features)",
+    "recommendations": [
+      "Stay well hydrated \u2014 aim for 2-3 liters of water daily",
+      "Reduce sodium intake to less than 2000mg per day",
+      "Monitor blood pressure regularly"
+    ]
+  },
+  "stroke": {
+    "disease": "Stroke",
+    "prediction": 0,
+    "risk_score": 0.3333,
+    "risk_percentage": 33.33,
+    "risk_level": "Low",
+    "confidence": 0.5,
+    "model_used": "Fallback Stroke Assessment",
+    "recommendations": [
+      "Please consult a specialist for stroke evaluation."
+    ]
+  },
+  "diabetes": {
+    "disease": "Diabetes",
+    "prediction": 0,
+    "risk_score": 0.4795,
+    "risk_percentage": 47.95,
+    "risk_level": "Medium",
+    "confidence": 0.78,
+    "model_used": "Diabetes Assessment (8 features)",
+    "recommendations": [
+      "Follow a low-glycemic diet rich in fiber",
+      "Regular exercise \u2014 at least 150 minutes per week"
+    ]
+  },
+  "liver": {
+    "disease": "Liver Disease",
+    "prediction": 0,
+    "risk_score": 0.1897,
+    "risk_percentage": 18.97,
+    "risk_level": "Low",
+    "confidence": 0.75,
+    "model_used": "Liver Disease Assessment (10 features)",
+    "recommendations": [
+      "Avoid alcohol and hepatotoxic medications",
+      "Maintain a balanced diet with adequate protein",
+      "Get vaccinated for Hepatitis A and B"
+    ]
+  },
+  "thyroid": {
+    "disease": "Thyroid Disease",
+    "prediction": 1,
+    "predicted_class": "Hypothyroid",
+    "risk_score": 1.0,
+    "risk_percentage": 100.0,
+    "risk_level": "High",
+    "confidence": 1.0,
+    "class_probabilities": {
+      "Negative": 0.0,
+      "Hyperthyroid": 0.0,
+      "Hypothyroid": 1.0
+    },
+    "model_used": "RandomForest Thyroid Model (21 features, 3 classes)",
+    "recommendations": [
+      "\ud83d\udea8 Thyroid function abnormal \u2014 see an endocrinologist",
+      "Regular thyroid function monitoring every 6-12 months",
+      "Ensure adequate iodine and selenium in diet"
+    ]
+  }
+}

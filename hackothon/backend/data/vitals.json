@@ -1,0 +1,35 @@
+[
+  {
+    "patient_id": "PAT-0002",
+    "blood_pressure_systolic": 120,
+    "blood_pressure_diastolic": 80,
+    "heart_rate": 72,
+    "blood_sugar": 100.0,
+    "spo2": 98.0,
+    "temperature": 98.6,
+    "weight": 70.0,
+    "timestamp": "2026-02-27T13:21:10.253724"
+  },
+  {
+    "patient_id": "PAT-0001",
+    "blood_pressure_systolic": 130,
+    "blood_pressure_diastolic": 80,
+    "heart_rate": 72,
+    "blood_sugar": 100.0,
+    "spo2": 98.0,
+    "temperature": 98.6,
+    "weight": 115.0,
+    "timestamp": "2026-02-27T15:11:50.054154"
+  },
+  {
+    "patient_id": "PAT-0001",
+    "blood_pressure_systolic": 120,
+    "blood_pressure_diastolic": 80,
+    "heart_rate": 72,
+    "blood_sugar": 100.0,
+    "spo2": 98.0,
+    "temperature": 98.6,
+    "weight": 70.0,
+    "timestamp": "2026-02-28T05:53:56.223640"
+  }
+]

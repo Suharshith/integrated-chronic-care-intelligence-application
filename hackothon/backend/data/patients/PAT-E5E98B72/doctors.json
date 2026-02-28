@@ -1,0 +1,68 @@
+[
+  {
+    "condition": "heart",
+    "specialty": "Cardiologist",
+    "icon": "\ud83e\udec0",
+    "location": {
+      "latitude": 12.9716,
+      "longitude": 77.5946
+    },
+    "doctors": [
+      {
+        "name": "Search for Cardiologist near you",
+        "address": "Use Google Maps to find specialists",
+        "rating": "N/A",
+        "total_ratings": 0,
+        "is_open": null,
+        "maps_url": "https://www.google.com/maps/search/cardiologist hospital/@12.9716,77.5946,14z"
+      }
+    ],
+    "total_found": 0,
+    "source": "Fallback - API key not configured",
+    "search_url": "https://www.google.com/maps/search/cardiologist hospital/@12.9716,77.5946,14z"
+  },
+  {
+    "condition": "diabetes",
+    "specialty": "Endocrinologist",
+    "icon": "\ud83e\ude78",
+    "location": {
+      "latitude": 12.9716,
+      "longitude": 77.5946
+    },
+    "doctors": [
+      {
+        "name": "Search for Endocrinologist near you",
+        "address": "Use Google Maps to find specialists",
+        "rating": "N/A",
+        "total_ratings": 0,
+        "is_open": null,
+        "maps_url": "https://www.google.com/maps/search/endocrinologist diabetes clinic/@12.9716,77.5946,14z"
+      }
+    ],
+    "total_found": 0,
+    "source": "Fallback - API key not configured",
+    "search_url": "https://www.google.com/maps/search/endocrinologist diabetes clinic/@12.9716,77.5946,14z"
+  },
+  {
+    "condition": "thyroid",
+    "specialty": "Endocrinologist",
+    "icon": "\ud83e\udd8b",
+    "location": {
+      "latitude": 12.9716,
+      "longitude": 77.5946
+    },
+    "doctors": [
+      {
+        "name": "Search for Endocrinologist near you",
+        "address": "Use Google Maps to find specialists",
+        "rating": "N/A",
+        "total_ratings": 0,
+        "is_open": null,
+        "maps_url": "https://www.google.com/maps/search/endocrinologist thyroid clinic/@12.9716,77.5946,14z"
+      }
+    ],
+    "total_found": 0,
+    "source": "Fallback - API key not configured",
+    "search_url": "https://www.google.com/maps/search/endocrinologist thyroid clinic/@12.9716,77.5946,14z"
+  }
+]

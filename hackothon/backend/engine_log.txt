@@ -1,0 +1,31 @@
+--- Loading models at 2026-02-28 04:52:10.912447 ---
+--- Loading models at 2026-02-28 04:52:24.329904 ---
+--- Loading models at 2026-02-28 04:52:45.049627 ---
+--- Loading models at 2026-02-28 04:52:59.553055 ---
+--- Loading models at 2026-02-28 04:53:32.895776 ---
+--- Loading models at 2026-02-28 04:53:56.313211 ---
+--- Loading models at 2026-02-28 04:54:38.200303 ---
+--- Loading models at 2026-02-28 04:56:44.644215 ---
+--- Loading models at 2026-02-28 04:57:55.560112 ---
+MODELS_DIR: C:\Users\suhar\OneDrive\Desktop\hackothon\backend\models
+
+--- Loading models at 2026-02-28 04:58:39.763083 ---
+MODELS_DIR: C:\Users\suhar\OneDrive\Desktop\hackothon\backend\models
+Heart loaded
+Kidney tabular loaded
+Attempting CNN load from C:\Users\suhar\OneDrive\Desktop\hackothon\backend\models\kidney\kidney_cnn_model.h5
+Kidney CNN loaded
+Stroke loaded
+Thyroid loaded
+Brain engine initialized
+
+--- Loading models at 2026-02-28 04:58:40.459633 ---
+MODELS_DIR: C:\Users\suhar\OneDrive\Desktop\hackothon\backend\models
+Heart loaded
+Kidney tabular loaded
+Attempting CNN load from C:\Users\suhar\OneDrive\Desktop\hackothon\backend\models\kidney\kidney_cnn_model.h5
+Kidney CNN loaded
+Stroke loaded
+Thyroid loaded
+Brain engine initialized
+--- Loading models at 2026-02-28 05:00:06.467772 ---

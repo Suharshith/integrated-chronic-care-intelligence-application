@@ -1,0 +1,29 @@
+[
+  {
+    "id": "admin-001",
+    "name": "Admin",
+    "email": "admin@iccip.com",
+    "password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+    "role": "admin",
+    "phone": "",
+    "created_at": "2026-02-27T18:54:46.807032"
+  },
+  {
+    "id": "USR-6C201926",
+    "name": "Test User",
+    "email": "test@example.com",
+    "password": "ecd71870d1963316a97e3ac3408c9835ad8cf0f3c1bc703527c30265534f75ae",
+    "phone": "+919876543210",
+    "role": "user",
+    "created_at": "2026-02-27T19:09:24.768413"
+  },
+  {
+    "id": "USR-013B024C",
+    "name": "Kallamadi Suharshith",
+    "email": "suharshith12@gmail.com",
+    "password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "phone": "+919963550757",
+    "role": "user",
+    "created_at": "2026-02-27T19:11:55.972188"
+  }
+]

@@ -1,0 +1,3726 @@
+[
+  {
+    "disease": "kidney",
+    "input": {
+      "age": 50,
+      "blood_pressure": 80,
+      "specific_gravity": 1.02,
+      "albumin": 0,
+      "sugar": 0,
+      "blood_glucose": 120,
+      "blood_urea": 36.0,
+      "serum_creatinine": 1.2,
+      "sodium": 138.0,
+      "potassium": 4.5,
+      "hemoglobin": 15.0,
+      "packed_cell_volume": 44,
+      "wbc_count": 7800,
+      "rbc_count": 5.2,
+      "red_blood_cells": "Normal",
+      "pus_cell": "Normal",
+      "bacteria": "Not Present"
+    },
+    "result": {
+      "disease": "Kidney Disease",
+      "prediction": 0,
+      "risk_score": 0.01,
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "confidence": 0.99,
+      "model_used": "Kidney Disease ML Model (Joblib)",
+      "recommendations": [
+        "Stay well hydrated \u2014 aim for 2-3 liters of water daily",
+        "Reduce sodium intake to less than 2000mg per day",
+        "Monitor blood pressure regularly"
+      ]
+    },
+    "timestamp": "2026-02-27T13:15:32.425636"
+  },
+  {
+    "disease": "heart",
+    "input": {
+      "age": 50,
+      "sex": "Male",
+      "chest_pain": "Asymptomatic",
+      "resting_bp": 120,
+      "cholesterol": 200,
+      "fasting_blood_sugar": "No",
+      "resting_ecg": "Normal",
+      "max_heart_rate": 150,
+      "exercise_angina": "No",
+      "st_depression": 1.0,
+      "slope": "Flat",
+      "num_vessels": 0,
+      "thalassemia": "Normal"
+    },
+    "result": {
+      "disease": "Heart Disease",
+      "prediction": 1,
+      "risk_score": 0.9086,
+      "risk_percentage": 90.86,
+      "risk_level": "High",
+      "confidence": 0.9086,
+      "model_used": "XGBoost Heart Disease Model",
+      "recommendations": [
+        "\ud83d\udea8 Immediate cardiology consultation recommended",
+        "Consider cardiac stress testing and angiography",
+        "Maintain regular cardiovascular exercise (30 min/day)",
+        "Follow a heart-healthy Mediterranean diet"
+      ]
+    },
+    "timestamp": "2026-02-27T13:16:07.037428"
+  },
+  {
+    "disease": "stroke",
+    "input": {
+      "age": 50,
+      "gender": "Male",
+      "hypertension": "No",
+      "heart_disease": "No",
+      "ever_married": "No",
+      "work_type": "Private",
+      "residence_type": "Urban",
+      "avg_glucose_level": 100.0,
+      "bmi": 25.0,
+      "smoking_status": "never smoked"
+    },
+    "result": {
+      "disease": "Stroke",
+      "prediction": 0,
+      "risk_score": 0.4167,
+      "risk_percentage": 41.67,
+      "risk_level": "Medium",
+      "confidence": 0.5,
+      "model_used": "Fallback Stroke Assessment",
+      "recommendations": [
+        "Please consult a specialist for stroke evaluation."
+      ]
+    },
+    "timestamp": "2026-02-27T13:16:27.222001"
+  },
+  {
+    "disease": "stroke",
+    "input": {
+      "age": 50,
+      "gender": "Male",
+      "hypertension": "No",
+      "heart_disease": "No",
+      "ever_married": "No",
+      "work_type": "Private",
+      "residence_type": "Urban",
+      "avg_glucose_level": 100.0,
+      "bmi": 21.0,
+      "smoking_status": "never smoked"
+    },
+    "result": {
+      "disease": "Stroke",
+      "prediction": 0,
+      "risk_score": 0.4167,
+      "risk_percentage": 41.67,
+      "risk_level": "Medium",
+      "confidence": 0.5,
+      "model_used": "Fallback Stroke Assessment",
+      "recommendations": [
+        "Please consult a specialist for stroke evaluation."
+      ]
+    },
+    "timestamp": "2026-02-27T13:16:33.480552"
+  },
+  {
+    "disease": "stroke",
+    "input": {
+      "age": 50,
+      "gender": "Male",
+      "hypertension": "No",
+      "heart_disease": "No",
+      "ever_married": "No",
+      "work_type": "Private",
+      "residence_type": "Urban",
+      "avg_glucose_level": 100.0,
+      "bmi": 21.0,
+      "smoking_status": "never smoked"
+    },
+    "result": {
+      "disease": "Stroke",
+      "prediction": 0,
+      "risk_score": 0.4167,
+      "risk_percentage": 41.67,
+      "risk_level": "Medium",
+      "confidence": 0.5,
+      "model_used": "Fallback Stroke Assessment",
+      "recommendations": [
+        "Please consult a specialist for stroke evaluation."
+      ]
+    },
+    "timestamp": "2026-02-27T13:16:36.685320"
+  },
+  {
+    "disease": "stroke",
+    "input": {
+      "age": 50,
+      "gender": "Male",
+      "hypertension": "No",
+      "heart_disease": "No",
+      "ever_married": "No",
+      "work_type": "Private",
+      "residence_type": "Urban",
+      "avg_glucose_level": 100.0,
+      "bmi": 21.0,
+      "smoking_status": "never smoked"
+    },
+    "result": {
+      "disease": "Stroke",
+      "prediction": 0,
+      "risk_score": 0.4167,
+      "risk_percentage": 41.67,
+      "risk_level": "Medium",
+      "confidence": 0.5,
+      "model_used": "Fallback Stroke Assessment",
+      "recommendations": [
+        "Please consult a specialist for stroke evaluation."
+      ]
+    },
+    "timestamp": "2026-02-27T13:16:37.771219"
+  },
+  {
+    "disease": "stroke",
+    "input": {
+      "age": 50,
+      "gender": "Male",
+      "hypertension": "No",
+      "heart_disease": "No",
+      "ever_married": "No",
+      "work_type": "Private",
+      "residence_type": "Urban",
+      "avg_glucose_level": 100.0,
+      "bmi": 18.0,
+      "smoking_status": "never smoked"
+    },
+    "result": {
+      "disease": "Stroke",
+      "prediction": 0,
+      "risk_score": 0.4167,
+      "risk_percentage": 41.67,
+      "risk_level": "Medium",
+      "confidence": 0.5,
+      "model_used": "Fallback Stroke Assessment",
+      "recommendations": [
+        "Please consult a specialist for stroke evaluation."
+      ]
+    },
+    "timestamp": "2026-02-27T13:16:43.764452"
+  },
+  {
+    "disease": "stroke",
+    "input": {
+      "age": 50,
+      "gender": "Male",
+      "hypertension": "No",
+      "heart_disease": "No",
+      "ever_married": "No",
+      "work_type": "Private",
+      "residence_type": "Urban",
+      "avg_glucose_level": 100.0,
+      "bmi": 25.0,
+      "smoking_status": "never smoked"
+    },
+    "result": {
+      "disease": "Stroke",
+      "prediction": 0,
+      "risk_score": 0.4167,
+      "risk_percentage": 41.67,
+      "risk_level": "Medium",
+      "confidence": 0.5,
+      "model_used": "Fallback Stroke Assessment",
+      "recommendations": [
+        "Please consult a specialist for stroke evaluation."
+      ]
+    },
+    "timestamp": "2026-02-27T13:16:55.736863"
+  },
+  {
+    "disease": "stroke",
+    "input": {
+      "age": 19,
+      "gender": "Male",
+      "hypertension": "No",
+      "heart_disease": "No",
+      "ever_married": "No",
+      "work_type": "Private",
+      "residence_type": "Urban",
+      "avg_glucose_level": 100.0,
+      "bmi": 25.0,
+      "smoking_status": "never smoked"
+    },
+    "result": {
+      "disease": "Stroke",
+      "prediction": 0,
+      "risk_score": 0.1583,
+      "risk_percentage": 15.83,
+      "risk_level": "Low",
+      "confidence": 0.5,
+      "model_used": "Fallback Stroke Assessment",
+      "recommendations": [
+        "Please consult a specialist for stroke evaluation."
+      ]
+    },
+    "timestamp": "2026-02-27T13:17:05.427761"
+  },
+  {
+    "disease": "stroke",
+    "input": {
+      "age": 19,
+      "gender": "Male",
+      "hypertension": "No",
+      "heart_disease": "No",
+      "ever_married": "No",
+      "work_type": "Private",
+      "residence_type": "Urban",
+      "avg_glucose_level": 100.0,
+      "bmi": 25.0,
+      "smoking_status": "never smoked"
+    },
+    "result": {
+      "disease": "Stroke",
+      "prediction": 0,
+      "risk_score": 0.1583,
+      "risk_percentage": 15.83,
+      "risk_level": "Low",
+      "confidence": 0.5,
+      "model_used": "Fallback Stroke Assessment",
+      "recommendations": [
+        "Please consult a specialist for stroke evaluation."
+      ]
+    },
+    "timestamp": "2026-02-27T13:18:48.722459"
+  },
+  {
+    "disease": "stroke",
+    "input": {
+      "age": 19,
+      "gender": "Male",
+      "hypertension": "No",
+      "heart_disease": "Yes",
+      "ever_married": "No",
+      "work_type": "Private",
+      "residence_type": "Urban",
+      "avg_glucose_level": 100.0,
+      "bmi": 25.0,
+      "smoking_status": "never smoked"
+    },
+    "result": {
+      "disease": "Stroke",
+      "prediction": 0,
+      "risk_score": 0.1583,
+      "risk_percentage": 15.83,
+      "risk_level": "Low",
+      "confidence": 0.5,
+      "model_used": "Fallback Stroke Assessment",
+      "recommendations": [
+        "Please consult a specialist for stroke evaluation."
+      ]
+    },
+    "timestamp": "2026-02-27T13:18:53.398553"
+  },
+  {
+    "disease": "stroke",
+    "input": {
+      "age": 19,
+      "gender": "Male",
+      "hypertension": "No",
+      "heart_disease": "Yes",
+      "ever_married": "No",
+      "work_type": "Private",
+      "residence_type": "Urban",
+      "avg_glucose_level": 100.0,
+      "bmi": 25.0,
+      "smoking_status": "never smoked"
+    },
+    "result": {
+      "disease": "Stroke",
+      "prediction": 0,
+      "risk_score": 0.1583,
+      "risk_percentage": 15.83,
+      "risk_level": "Low",
+      "confidence": 0.5,
+      "model_used": "Fallback Stroke Assessment",
+      "recommendations": [
+        "Please consult a specialist for stroke evaluation."
+      ]
+    },
+    "timestamp": "2026-02-27T13:18:55.322280"
+  },
+  {
+    "disease": "stroke",
+    "input": {
+      "age": 19,
+      "gender": "Male",
+      "hypertension": "No",
+      "heart_disease": "Yes",
+      "ever_married": "No",
+      "work_type": "Private",
+      "residence_type": "Urban",
+      "avg_glucose_level": 100.0,
+      "bmi": 25.0,
+      "smoking_status": "never smoked"
+    },
+    "result": {
+      "disease": "Stroke",
+      "prediction": 0,
+      "risk_score": 0.1583,
+      "risk_percentage": 15.83,
+      "risk_level": "Low",
+      "confidence": 0.5,
+      "model_used": "Fallback Stroke Assessment",
+      "recommendations": [
+        "Please consult a specialist for stroke evaluation."
+      ]
+    },
+    "timestamp": "2026-02-27T13:18:55.678293"
+  },
+  {
+    "disease": "stroke",
+    "input": {
+      "age": 19,
+      "gender": "Male",
+      "hypertension": "No",
+      "heart_disease": "Yes",
+      "ever_married": "No",
+      "work_type": "Private",
+      "residence_type": "Urban",
+      "avg_glucose_level": 100.0,
+      "bmi": 25.0,
+      "smoking_status": "never smoked"
+    },
+    "result": {
+      "disease": "Stroke",
+      "prediction": 0,
+      "risk_score": 0.1583,
+      "risk_percentage": 15.83,
+      "risk_level": "Low",
+      "confidence": 0.5,
+      "model_used": "Fallback Stroke Assessment",
+      "recommendations": [
+        "Please consult a specialist for stroke evaluation."
+      ]
+    },
+    "timestamp": "2026-02-27T13:18:55.888754"
+  },
+  {
+    "disease": "stroke",
+    "input": {
+      "age": 19,
+      "gender": "Male",
+      "hypertension": "No",
+      "heart_disease": "Yes",
+      "ever_married": "No",
+      "work_type": "Private",
+      "residence_type": "Urban",
+      "avg_glucose_level": 100.0,
+      "bmi": 31.0,
+      "smoking_status": "never smoked"
+    },
+    "result": {
+      "disease": "Stroke",
+      "prediction": 0,
+      "risk_score": 0.1583,
+      "risk_percentage": 15.83,
+      "risk_level": "Low",
+      "confidence": 0.5,
+      "model_used": "Fallback Stroke Assessment",
+      "recommendations": [
+        "Please consult a specialist for stroke evaluation."
+      ]
+    },
+    "timestamp": "2026-02-27T13:19:02.989469"
+  },
+  {
+    "disease": "stroke",
+    "input": {
+      "age": 60,
+      "gender": "Male",
+      "hypertension": "No",
+      "heart_disease": "Yes",
+      "ever_married": "No",
+      "work_type": "Private",
+      "residence_type": "Urban",
+      "avg_glucose_level": 100.0,
+      "bmi": 31.0,
+      "smoking_status": "never smoked"
+    },
+    "result": {
+      "disease": "Stroke",
+      "prediction": 0,
+      "risk_score": 0.5,
+      "risk_percentage": 50.0,
+      "risk_level": "Medium",
+      "confidence": 0.5,
+      "model_used": "Fallback Stroke Assessment",
+      "recommendations": [
+        "Please consult a specialist for stroke evaluation."
+      ]
+    },
+    "timestamp": "2026-02-27T13:19:09.604078"
+  },
+  {
+    "disease": "stroke",
+    "input": {
+      "age": 60,
+      "gender": "Female",
+      "hypertension": "No",
+      "heart_disease": "Yes",
+      "ever_married": "No",
+      "work_type": "Private",
+      "residence_type": "Urban",
+      "avg_glucose_level": 100.0,
+      "bmi": 31.0,
+      "smoking_status": "never smoked"
+    },
+    "result": {
+      "disease": "Stroke",
+      "prediction": 0,
+      "risk_score": 0.5,
+      "risk_percentage": 50.0,
+      "risk_level": "Medium",
+      "confidence": 0.5,
+      "model_used": "Fallback Stroke Assessment",
+      "recommendations": [
+        "Please consult a specialist for stroke evaluation."
+      ]
+    },
+    "timestamp": "2026-02-27T13:19:13.579992"
+  },
+  {
+    "disease": "stroke",
+    "input": {
+      "age": 60,
+      "gender": "Female",
+      "hypertension": "Yes",
+      "heart_disease": "Yes",
+      "ever_married": "No",
+      "work_type": "Private",
+      "residence_type": "Urban",
+      "avg_glucose_level": 100.0,
+      "bmi": 31.0,
+      "smoking_status": "never smoked"
+    },
+    "result": {
+      "disease": "Stroke",
+      "prediction": 0,
+      "risk_score": 0.5,
+      "risk_percentage": 50.0,
+      "risk_level": "Medium",
+      "confidence": 0.5,
+      "model_used": "Fallback Stroke Assessment",
+      "recommendations": [
+        "Please consult a specialist for stroke evaluation."
+      ]
+    },
+    "timestamp": "2026-02-27T13:19:16.638086"
+  },
+  {
+    "disease": "stroke",
+    "input": {
+      "age": 60,
+      "gender": "Female",
+      "hypertension": "Yes",
+      "heart_disease": "Yes",
+      "ever_married": "No",
+      "work_type": "Private",
+      "residence_type": "Urban",
+      "avg_glucose_level": 150.0,
+      "bmi": 31.0,
+      "smoking_status": "never smoked"
+    },
+    "result": {
+      "disease": "Stroke",
+      "prediction": 0,
+      "risk_score": 0.5,
+      "risk_percentage": 50.0,
+      "risk_level": "Medium",
+      "confidence": 0.5,
+      "model_used": "Fallback Stroke Assessment",
+      "recommendations": [
+        "Please consult a specialist for stroke evaluation."
+      ]
+    },
+    "timestamp": "2026-02-27T13:19:20.823962"
+  },
+  {
+    "disease": "stroke",
+    "input": {
+      "age": 60,
+      "gender": "Female",
+      "hypertension": "Yes",
+      "heart_disease": "Yes",
+      "ever_married": "Yes",
+      "work_type": "Private",
+      "residence_type": "Rural",
+      "avg_glucose_level": 150.0,
+      "bmi": 31.0,
+      "smoking_status": "smokes"
+    },
+    "result": {
+      "disease": "Stroke",
+      "prediction": 0,
+      "risk_score": 0.5,
+      "risk_percentage": 50.0,
+      "risk_level": "Medium",
+      "confidence": 0.5,
+      "model_used": "Fallback Stroke Assessment",
+      "recommendations": [
+        "Please consult a specialist for stroke evaluation."
+      ]
+    },
+    "timestamp": "2026-02-27T13:19:27.454937"
+  },
+  {
+    "disease": "stroke",
+    "input": {
+      "age": 60,
+      "gender": "Female",
+      "hypertension": "Yes",
+      "heart_disease": "Yes",
+      "ever_married": "Yes",
+      "work_type": "Private",
+      "residence_type": "Rural",
+      "avg_glucose_level": 150.0,
+      "bmi": 31.0,
+      "smoking_status": "smokes"
+    },
+    "result": {
+      "disease": "Stroke",
+      "prediction": 0,
+      "risk_score": 0.5,
+      "risk_percentage": 50.0,
+      "risk_level": "Medium",
+      "confidence": 0.5,
+      "model_used": "Fallback Stroke Assessment",
+      "recommendations": [
+        "Please consult a specialist for stroke evaluation."
+      ]
+    },
+    "timestamp": "2026-02-27T13:19:28.192553"
+  },
+  {
+    "disease": "stroke",
+    "input": {
+      "age": 60,
+      "gender": "Female",
+      "hypertension": "Yes",
+      "heart_disease": "Yes",
+      "ever_married": "Yes",
+      "work_type": "Private",
+      "residence_type": "Rural",
+      "avg_glucose_level": 150.0,
+      "bmi": 31.0,
+      "smoking_status": "smokes"
+    },
+    "result": {
+      "disease": "Stroke",
+      "prediction": 0,
+      "risk_score": 0.5,
+      "risk_percentage": 50.0,
+      "risk_level": "Medium",
+      "confidence": 0.5,
+      "model_used": "Fallback Stroke Assessment",
+      "recommendations": [
+        "Please consult a specialist for stroke evaluation."
+      ]
+    },
+    "timestamp": "2026-02-27T13:19:28.382324"
+  },
+  {
+    "disease": "stroke",
+    "input": {
+      "age": 60,
+      "gender": "Female",
+      "hypertension": "Yes",
+      "heart_disease": "Yes",
+      "ever_married": "Yes",
+      "work_type": "Private",
+      "residence_type": "Rural",
+      "avg_glucose_level": 150.0,
+      "bmi": 31.0,
+      "smoking_status": "smokes"
+    },
+    "result": {
+      "disease": "Stroke",
+      "prediction": 0,
+      "risk_score": 0.5,
+      "risk_percentage": 50.0,
+      "risk_level": "Medium",
+      "confidence": 0.5,
+      "model_used": "Fallback Stroke Assessment",
+      "recommendations": [
+        "Please consult a specialist for stroke evaluation."
+      ]
+    },
+    "timestamp": "2026-02-27T13:19:28.527653"
+  },
+  {
+    "disease": "stroke",
+    "input": {
+      "age": 90,
+      "gender": "Female",
+      "hypertension": "Yes",
+      "heart_disease": "Yes",
+      "ever_married": "Yes",
+      "work_type": "Private",
+      "residence_type": "Rural",
+      "avg_glucose_level": 150.0,
+      "bmi": 31.0,
+      "smoking_status": "smokes"
+    },
+    "result": {
+      "disease": "Stroke",
+      "prediction": 0,
+      "risk_score": 0.75,
+      "risk_percentage": 75.0,
+      "risk_level": "High",
+      "confidence": 0.5,
+      "model_used": "Fallback Stroke Assessment",
+      "recommendations": [
+        "Please consult a specialist for stroke evaluation."
+      ]
+    },
+    "timestamp": "2026-02-27T13:19:35.054122"
+  },
+  {
+    "disease": "stroke",
+    "input": {
+      "age": 70,
+      "gender": "Female",
+      "hypertension": "Yes",
+      "heart_disease": "Yes",
+      "ever_married": "Yes",
+      "work_type": "Private",
+      "residence_type": "Rural",
+      "avg_glucose_level": 150.0,
+      "bmi": 31.0,
+      "smoking_status": "smokes"
+    },
+    "result": {
+      "disease": "Stroke",
+      "prediction": 0,
+      "risk_score": 0.5833,
+      "risk_percentage": 58.33,
+      "risk_level": "Medium",
+      "confidence": 0.5,
+      "model_used": "Fallback Stroke Assessment",
+      "recommendations": [
+        "Please consult a specialist for stroke evaluation."
+      ]
+    },
+    "timestamp": "2026-02-27T13:19:51.084632"
+  },
+  {
+    "disease": "stroke",
+    "input": {
+      "age": 50,
+      "gender": "Male",
+      "hypertension": "No",
+      "heart_disease": "No",
+      "ever_married": "No",
+      "work_type": "Private",
+      "residence_type": "Urban",
+      "avg_glucose_level": 100.0,
+      "bmi": 25.0,
+      "smoking_status": "never smoked"
+    },
+    "result": {
+      "disease": "Stroke",
+      "prediction": 0,
+      "risk_score": 0.4167,
+      "risk_percentage": 41.67,
+      "risk_level": "Medium",
+      "confidence": 0.5,
+      "model_used": "Fallback Stroke Assessment",
+      "recommendations": [
+        "Please consult a specialist for stroke evaluation."
+      ]
+    },
+    "timestamp": "2026-02-27T13:20:00.819475"
+  },
+  {
+    "disease": "liver",
+    "input": {
+      "age": 45,
+      "total_bilirubin": 1.0,
+      "direct_bilirubin": 0.3,
+      "alkaline_phosphotase": 200,
+      "alamine_aminotransferase": 40,
+      "aspartate_aminotransferase": 35,
+      "total_proteins": 6.8,
+      "albumin": 3.5,
+      "albumin_globulin_ratio": 1.0
+    },
+    "result": {
+      "disease": "Liver Disease",
+      "prediction": 0,
+      "risk_score": 0.2271,
+      "risk_percentage": 22.71,
+      "risk_level": "Low",
+      "confidence": 0.75,
+      "model_used": "Rule-based Liver Assessment",
+      "recommendations": [
+        "Avoid alcohol and hepatotoxic medications",
+        "Maintain a balanced diet with adequate protein",
+        "Get vaccinated for Hepatitis A and B"
+      ]
+    },
+    "timestamp": "2026-02-27T13:20:09.923831"
+  },
+  {
+    "disease": "heart",
+    "input": {
+      "age": 50,
+      "sex": "Male",
+      "chest_pain": "Asymptomatic",
+      "resting_bp": 120,
+      "cholesterol": 200,
+      "fasting_blood_sugar": "No",
+      "resting_ecg": "Normal",
+      "max_heart_rate": 150,
+      "exercise_angina": "No",
+      "st_depression": 1.0,
+      "slope": "Flat",
+      "num_vessels": 0,
+      "thalassemia": "Normal"
+    },
+    "result": {
+      "disease": "Heart Disease",
+      "prediction": 1,
+      "risk_score": 0.9086,
+      "risk_percentage": 90.86,
+      "risk_level": "High",
+      "confidence": 0.9086,
+      "model_used": "XGBoost Heart Disease Model",
+      "recommendations": [
+        "\ud83d\udea8 Immediate cardiology consultation recommended",
+        "Consider cardiac stress testing and angiography",
+        "Maintain regular cardiovascular exercise (30 min/day)",
+        "Follow a heart-healthy Mediterranean diet"
+      ]
+    },
+    "timestamp": "2026-02-27T13:21:51.510734"
+  },
+  {
+    "disease": "heart",
+    "input": {
+      "age": 19,
+      "sex": "Male",
+      "chest_pain": "Asymptomatic",
+      "resting_bp": 120,
+      "cholesterol": 200,
+      "fasting_blood_sugar": "No",
+      "resting_ecg": "Normal",
+      "max_heart_rate": 150,
+      "exercise_angina": "No",
+      "st_depression": 1.0,
+      "slope": "Flat",
+      "num_vessels": 0,
+      "thalassemia": "Normal"
+    },
+    "result": {
+      "disease": "Heart Disease",
+      "prediction": 1,
+      "risk_score": 0.9672,
+      "risk_percentage": 96.72,
+      "risk_level": "High",
+      "confidence": 0.9672,
+      "model_used": "XGBoost Heart Disease Model",
+      "recommendations": [
+        "\ud83d\udea8 Immediate cardiology consultation recommended",
+        "Consider cardiac stress testing and angiography",
+        "Maintain regular cardiovascular exercise (30 min/day)",
+        "Follow a heart-healthy Mediterranean diet"
+      ]
+    },
+    "timestamp": "2026-02-27T13:21:58.777570"
+  },
+  {
+    "disease": "heart",
+    "input": {
+      "age": 19,
+      "sex": "Male",
+      "chest_pain": "Asymptomatic",
+      "resting_bp": 120,
+      "cholesterol": 200,
+      "fasting_blood_sugar": "No",
+      "resting_ecg": "Normal",
+      "max_heart_rate": 150,
+      "exercise_angina": "No",
+      "st_depression": 1.0,
+      "slope": "Flat",
+      "num_vessels": 0,
+      "thalassemia": "Normal"
+    },
+    "result": {
+      "disease": "Heart Disease",
+      "prediction": 1,
+      "risk_score": 0.9672,
+      "risk_percentage": 96.72,
+      "risk_level": "High",
+      "confidence": 0.9672,
+      "model_used": "XGBoost Heart Disease Model",
+      "recommendations": [
+        "\ud83d\udea8 Immediate cardiology consultation recommended",
+        "Consider cardiac stress testing and angiography",
+        "Maintain regular cardiovascular exercise (30 min/day)",
+        "Follow a heart-healthy Mediterranean diet"
+      ]
+    },
+    "timestamp": "2026-02-27T13:22:00.791009"
+  },
+  {
+    "disease": "heart",
+    "input": {
+      "age": 19,
+      "sex": "Male",
+      "chest_pain": "Asymptomatic",
+      "resting_bp": 120,
+      "cholesterol": 200,
+      "fasting_blood_sugar": "No",
+      "resting_ecg": "Normal",
+      "max_heart_rate": 150,
+      "exercise_angina": "No",
+      "st_depression": 1.0,
+      "slope": "Flat",
+      "num_vessels": 0,
+      "thalassemia": "Normal"
+    },
+    "result": {
+      "disease": "Heart Disease",
+      "prediction": 1,
+      "risk_score": 0.9672,
+      "risk_percentage": 96.72,
+      "risk_level": "High",
+      "confidence": 0.9672,
+      "model_used": "XGBoost Heart Disease Model",
+      "recommendations": [
+        "\ud83d\udea8 Immediate cardiology consultation recommended",
+        "Consider cardiac stress testing and angiography",
+        "Maintain regular cardiovascular exercise (30 min/day)",
+        "Follow a heart-healthy Mediterranean diet"
+      ]
+    },
+    "timestamp": "2026-02-27T13:22:00.995571"
+  },
+  {
+    "disease": "heart",
+    "input": {
+      "age": 19,
+      "sex": "Male",
+      "chest_pain": "Asymptomatic",
+      "resting_bp": 120,
+      "cholesterol": 200,
+      "fasting_blood_sugar": "No",
+      "resting_ecg": "Normal",
+      "max_heart_rate": 150,
+      "exercise_angina": "No",
+      "st_depression": 1.0,
+      "slope": "Flat",
+      "num_vessels": 0,
+      "thalassemia": "Normal"
+    },
+    "result": {
+      "disease": "Heart Disease",
+      "prediction": 1,
+      "risk_score": 0.9672,
+      "risk_percentage": 96.72,
+      "risk_level": "High",
+      "confidence": 0.9672,
+      "model_used": "XGBoost Heart Disease Model",
+      "recommendations": [
+        "\ud83d\udea8 Immediate cardiology consultation recommended",
+        "Consider cardiac stress testing and angiography",
+        "Maintain regular cardiovascular exercise (30 min/day)",
+        "Follow a heart-healthy Mediterranean diet"
+      ]
+    },
+    "timestamp": "2026-02-27T13:22:01.153596"
+  },
+  {
+    "disease": "heart",
+    "input": {
+      "age": 19,
+      "sex": "Male",
+      "chest_pain": "Asymptomatic",
+      "resting_bp": 120,
+      "cholesterol": 200,
+      "fasting_blood_sugar": "No",
+      "resting_ecg": "Normal",
+      "max_heart_rate": 120,
+      "exercise_angina": "No",
+      "st_depression": 1.0,
+      "slope": "Flat",
+      "num_vessels": 0,
+      "thalassemia": "Normal"
+    },
+    "result": {
+      "disease": "Heart Disease",
+      "prediction": 1,
+      "risk_score": 0.9798,
+      "risk_percentage": 97.98,
+      "risk_level": "High",
+      "confidence": 0.9798,
+      "model_used": "XGBoost Heart Disease Model",
+      "recommendations": [
+        "\ud83d\udea8 Immediate cardiology consultation recommended",
+        "Consider cardiac stress testing and angiography",
+        "Maintain regular cardiovascular exercise (30 min/day)",
+        "Follow a heart-healthy Mediterranean diet"
+      ]
+    },
+    "timestamp": "2026-02-27T13:22:08.411957"
+  },
+  {
+    "disease": "heart",
+    "input": {
+      "age": 19,
+      "sex": "Male",
+      "chest_pain": "Asymptomatic",
+      "resting_bp": 120,
+      "cholesterol": 200,
+      "fasting_blood_sugar": "No",
+      "resting_ecg": "ST-T Abnormality",
+      "max_heart_rate": 120,
+      "exercise_angina": "No",
+      "st_depression": 1.0,
+      "slope": "Flat",
+      "num_vessels": 0,
+      "thalassemia": "Normal"
+    },
+    "result": {
+      "disease": "Heart Disease",
+      "prediction": 1,
+      "risk_score": 0.9699,
+      "risk_percentage": 96.99,
+      "risk_level": "High",
+      "confidence": 0.9699,
+      "model_used": "XGBoost Heart Disease Model",
+      "recommendations": [
+        "\ud83d\udea8 Immediate cardiology consultation recommended",
+        "Consider cardiac stress testing and angiography",
+        "Maintain regular cardiovascular exercise (30 min/day)",
+        "Follow a heart-healthy Mediterranean diet"
+      ]
+    },
+    "timestamp": "2026-02-27T13:22:11.889791"
+  },
+  {
+    "disease": "stroke",
+    "input": {
+      "age": 50,
+      "gender": "Male",
+      "hypertension": "No",
+      "heart_disease": "No",
+      "ever_married": "No",
+      "work_type": "Private",
+      "residence_type": "Urban",
+      "avg_glucose_level": 100.0,
+      "bmi": 25.0,
+      "smoking_status": "never smoked"
+    },
+    "result": {
+      "disease": "Stroke",
+      "prediction": 0,
+      "risk_score": 0.4167,
+      "risk_percentage": 41.67,
+      "risk_level": "Medium",
+      "confidence": 0.5,
+      "model_used": "Fallback Stroke Assessment",
+      "recommendations": [
+        "Please consult a specialist for stroke evaluation."
+      ]
+    },
+    "timestamp": "2026-02-27T13:22:19.638388"
+  },
+  {
+    "disease": "stroke",
+    "input": {
+      "age": 19,
+      "gender": "Male",
+      "hypertension": "No",
+      "heart_disease": "No",
+      "ever_married": "No",
+      "work_type": "Private",
+      "residence_type": "Urban",
+      "avg_glucose_level": 100.0,
+      "bmi": 25.0,
+      "smoking_status": "never smoked"
+    },
+    "result": {
+      "disease": "Stroke",
+      "prediction": 0,
+      "risk_score": 0.1583,
+      "risk_percentage": 15.83,
+      "risk_level": "Low",
+      "confidence": 0.5,
+      "model_used": "Fallback Stroke Assessment",
+      "recommendations": [
+        "Please consult a specialist for stroke evaluation."
+      ]
+    },
+    "timestamp": "2026-02-27T13:22:26.435943"
+  },
+  {
+    "disease": "thyroid",
+    "input": {
+      "age": 40,
+      "tsh": 2.5,
+      "t3": 1.5,
+      "t4": 8.0
+    },
+    "result": {
+      "disease": "Thyroid Disease",
+      "prediction": 0,
+      "risk_score": 0.0667,
+      "risk_percentage": 6.67,
+      "risk_level": "Low",
+      "confidence": 0.72,
+      "model_used": "Rule-based Thyroid Assessment",
+      "recommendations": [
+        "Regular thyroid function monitoring every 6-12 months",
+        "Ensure adequate iodine and selenium in diet"
+      ]
+    },
+    "timestamp": "2026-02-27T13:23:16.451613"
+  },
+  {
+    "disease": "thyroid",
+    "input": {
+      "age": 40,
+      "tsh": 2.5,
+      "t3": 1.5,
+      "t4": 8.0
+    },
+    "result": {
+      "disease": "Thyroid Disease",
+      "prediction": 0,
+      "risk_score": 0.0667,
+      "risk_percentage": 6.67,
+      "risk_level": "Low",
+      "confidence": 0.72,
+      "model_used": "Rule-based Thyroid Assessment",
+      "recommendations": [
+        "Regular thyroid function monitoring every 6-12 months",
+        "Ensure adequate iodine and selenium in diet"
+      ]
+    },
+    "timestamp": "2026-02-27T13:23:29.328825"
+  },
+  {
+    "disease": "thyroid",
+    "input": {
+      "age": 40,
+      "tsh": 2.5,
+      "t3": 1.5,
+      "t4": 2.0
+    },
+    "result": {
+      "disease": "Thyroid Disease",
+      "prediction": 0,
+      "risk_score": 0.2667,
+      "risk_percentage": 26.67,
+      "risk_level": "Low",
+      "confidence": 0.72,
+      "model_used": "Rule-based Thyroid Assessment",
+      "recommendations": [
+        "Regular thyroid function monitoring every 6-12 months",
+        "Ensure adequate iodine and selenium in diet"
+      ]
+    },
+    "timestamp": "2026-02-27T13:23:34.344489"
+  },
+  {
+    "disease": "thyroid",
+    "input": {
+      "age": 40,
+      "tsh": 2.5,
+      "t3": 1.5,
+      "t4": 13.0
+    },
+    "result": {
+      "disease": "Thyroid Disease",
+      "prediction": 0,
+      "risk_score": 0.2667,
+      "risk_percentage": 26.67,
+      "risk_level": "Low",
+      "confidence": 0.72,
+      "model_used": "Rule-based Thyroid Assessment",
+      "recommendations": [
+        "Regular thyroid function monitoring every 6-12 months",
+        "Ensure adequate iodine and selenium in diet"
+      ]
+    },
+    "timestamp": "2026-02-27T13:23:47.677032"
+  },
+  {
+    "disease": "thyroid",
+    "input": {
+      "age": 40,
+      "tsh": 2.5,
+      "t3": 1.5,
+      "t4": 8.0
+    },
+    "result": {
+      "disease": "Thyroid Disease",
+      "prediction": 0,
+      "risk_score": 0.0667,
+      "risk_percentage": 6.67,
+      "risk_level": "Low",
+      "confidence": 0.72,
+      "model_used": "Rule-based Thyroid Assessment",
+      "recommendations": [
+        "Regular thyroid function monitoring every 6-12 months",
+        "Ensure adequate iodine and selenium in diet"
+      ]
+    },
+    "timestamp": "2026-02-27T13:49:08.289764"
+  },
+  {
+    "disease": "thyroid",
+    "input": {
+      "age": 40,
+      "sex": "Female",
+      "on_thyroxine": "No",
+      "query_on_thyroxine": "No",
+      "on_antithyroid_meds": "No",
+      "sick": "No",
+      "pregnant": "No",
+      "thyroid_surgery": "No",
+      "I131_treatment": "No",
+      "query_hypothyroid": "No",
+      "query_hyperthyroid": "No",
+      "lithium": "No",
+      "goitre": "No",
+      "tumor": "No",
+      "psych": "No",
+      "TSH": 2.5,
+      "T3": 1.5,
+      "TT4": 110.0,
+      "T4U": 1.0,
+      "FTI": 110.0,
+      "TBG": 20.0
+    },
+    "result": {
+      "disease": "Thyroid Disease",
+      "prediction": 1,
+      "predicted_class": "Hypothyroid",
+      "risk_score": 1.0,
+      "risk_percentage": 100.0,
+      "risk_level": "High",
+      "confidence": 1.0,
+      "class_probabilities": {
+        "Negative": 0.0,
+        "Hyperthyroid": 0.0,
+        "Hypothyroid": 1.0
+      },
+      "model_used": "RandomForest Thyroid Model (21 features, 3 classes)",
+      "recommendations": [
+        "\ud83d\udea8 Thyroid function abnormal \u2014 see an endocrinologist",
+        "Regular thyroid function monitoring every 6-12 months",
+        "Ensure adequate iodine and selenium in diet"
+      ]
+    },
+    "timestamp": "2026-02-27T14:41:40.019030"
+  },
+  {
+    "disease": "thyroid",
+    "input": {
+      "age": 40,
+      "sex": "Male",
+      "on_thyroxine": "No",
+      "query_on_thyroxine": "No",
+      "on_antithyroid_meds": "No",
+      "sick": "No",
+      "pregnant": "Yes",
+      "thyroid_surgery": "No",
+      "I131_treatment": "No",
+      "query_hypothyroid": "No",
+      "query_hyperthyroid": "No",
+      "lithium": "Yes",
+      "goitre": "Yes",
+      "tumor": "No",
+      "psych": "No",
+      "TSH": 2.5,
+      "T3": 1.5,
+      "TT4": 110.0,
+      "T4U": 1.0,
+      "FTI": 110.0,
+      "TBG": 20.0
+    },
+    "result": {
+      "disease": "Thyroid Disease",
+      "prediction": 1,
+      "predicted_class": "Hypothyroid",
+      "risk_score": 1.0,
+      "risk_percentage": 100.0,
+      "risk_level": "High",
+      "confidence": 1.0,
+      "class_probabilities": {
+        "Negative": 0.0,
+        "Hyperthyroid": 0.0,
+        "Hypothyroid": 1.0
+      },
+      "model_used": "RandomForest Thyroid Model (21 features, 3 classes)",
+      "recommendations": [
+        "\ud83d\udea8 Thyroid function abnormal \u2014 see an endocrinologist",
+        "Regular thyroid function monitoring every 6-12 months",
+        "Ensure adequate iodine and selenium in diet"
+      ]
+    },
+    "timestamp": "2026-02-27T14:42:11.725770"
+  },
+  {
+    "disease": "thyroid",
+    "input": {
+      "age": 40,
+      "sex": "Male",
+      "on_thyroxine": "No",
+      "query_on_thyroxine": "No",
+      "on_antithyroid_meds": "No",
+      "sick": "No",
+      "pregnant": "No",
+      "thyroid_surgery": "No",
+      "I131_treatment": "No",
+      "query_hypothyroid": "No",
+      "query_hyperthyroid": "No",
+      "lithium": "No",
+      "goitre": "No",
+      "tumor": "No",
+      "psych": "No",
+      "TSH": 2.5,
+      "T3": 1.5,
+      "TT4": 110.0,
+      "T4U": 1.0,
+      "FTI": 110.0,
+      "TBG": 20.0
+    },
+    "result": {
+      "disease": "Thyroid Disease",
+      "prediction": 1,
+      "predicted_class": "Hypothyroid",
+      "risk_score": 1.0,
+      "risk_percentage": 100.0,
+      "risk_level": "High",
+      "confidence": 1.0,
+      "class_probabilities": {
+        "Negative": 0.0,
+        "Hyperthyroid": 0.0,
+        "Hypothyroid": 1.0
+      },
+      "model_used": "RandomForest Thyroid Model (21 features, 3 classes)",
+      "recommendations": [
+        "\ud83d\udea8 Thyroid function abnormal \u2014 see an endocrinologist",
+        "Regular thyroid function monitoring every 6-12 months",
+        "Ensure adequate iodine and selenium in diet"
+      ]
+    },
+    "timestamp": "2026-02-27T14:58:44.686585"
+  },
+  {
+    "disease": "thyroid",
+    "input": {
+      "age": 40,
+      "sex": "Male",
+      "on_thyroxine": "No",
+      "query_on_thyroxine": "No",
+      "on_antithyroid_meds": "No",
+      "sick": "No",
+      "pregnant": "No",
+      "thyroid_surgery": "No",
+      "I131_treatment": "No",
+      "query_hypothyroid": "No",
+      "query_hyperthyroid": "No",
+      "lithium": "No",
+      "goitre": "No",
+      "tumor": "No",
+      "psych": "No",
+      "TSH": 2.5,
+      "T3": 1.5,
+      "TT4": 110.0,
+      "T4U": 1.0,
+      "FTI": 90.0,
+      "TBG": 10.0
+    },
+    "result": {
+      "disease": "Thyroid Disease",
+      "prediction": 1,
+      "predicted_class": "Hypothyroid",
+      "risk_score": 1.0,
+      "risk_percentage": 100.0,
+      "risk_level": "High",
+      "confidence": 1.0,
+      "class_probabilities": {
+        "Negative": 0.0,
+        "Hyperthyroid": 0.0,
+        "Hypothyroid": 1.0
+      },
+      "model_used": "RandomForest Thyroid Model (21 features, 3 classes)",
+      "recommendations": [
+        "\ud83d\udea8 Thyroid function abnormal \u2014 see an endocrinologist",
+        "Regular thyroid function monitoring every 6-12 months",
+        "Ensure adequate iodine and selenium in diet"
+      ]
+    },
+    "timestamp": "2026-02-27T14:58:59.586923"
+  },
+  {
+    "disease": "thyroid",
+    "input": {
+      "age": 40,
+      "sex": "Male",
+      "on_thyroxine": "No",
+      "query_on_thyroxine": "No",
+      "on_antithyroid_meds": "No",
+      "sick": "No",
+      "pregnant": "No",
+      "thyroid_surgery": "No",
+      "I131_treatment": "No",
+      "query_hypothyroid": "No",
+      "query_hyperthyroid": "No",
+      "lithium": "No",
+      "goitre": "No",
+      "tumor": "No",
+      "psych": "No",
+      "TSH": 2.5,
+      "T3": 1.5,
+      "TT4": 110.0,
+      "T4U": 1.0,
+      "FTI": 90.0,
+      "TBG": 10.0
+    },
+    "result": {
+      "disease": "Thyroid Disease",
+      "prediction": 1,
+      "predicted_class": "Hypothyroid",
+      "risk_score": 1.0,
+      "risk_percentage": 100.0,
+      "risk_level": "High",
+      "confidence": 1.0,
+      "class_probabilities": {
+        "Negative": 0.0,
+        "Hyperthyroid": 0.0,
+        "Hypothyroid": 1.0
+      },
+      "model_used": "RandomForest Thyroid Model (21 features, 3 classes)",
+      "recommendations": [
+        "\ud83d\udea8 Thyroid function abnormal \u2014 see an endocrinologist",
+        "Regular thyroid function monitoring every 6-12 months",
+        "Ensure adequate iodine and selenium in diet"
+      ]
+    },
+    "timestamp": "2026-02-27T14:59:04.049393"
+  },
+  {
+    "disease": "thyroid",
+    "input": {
+      "age": 40,
+      "sex": "Male",
+      "on_thyroxine": "No",
+      "query_on_thyroxine": "No",
+      "on_antithyroid_meds": "No",
+      "sick": "No",
+      "pregnant": "No",
+      "thyroid_surgery": "No",
+      "I131_treatment": "No",
+      "query_hypothyroid": "No",
+      "query_hyperthyroid": "No",
+      "lithium": "No",
+      "goitre": "No",
+      "tumor": "No",
+      "psych": "No",
+      "TSH": 2.5,
+      "T3": 1.5,
+      "TT4": 110.0,
+      "T4U": 1.0,
+      "FTI": 90.0,
+      "TBG": 10.0
+    },
+    "result": {
+      "disease": "Thyroid Disease",
+      "prediction": 1,
+      "predicted_class": "Hypothyroid",
+      "risk_score": 1.0,
+      "risk_percentage": 100.0,
+      "risk_level": "High",
+      "confidence": 1.0,
+      "class_probabilities": {
+        "Negative": 0.0,
+        "Hyperthyroid": 0.0,
+        "Hypothyroid": 1.0
+      },
+      "model_used": "RandomForest Thyroid Model (21 features, 3 classes)",
+      "recommendations": [
+        "\ud83d\udea8 Thyroid function abnormal \u2014 see an endocrinologist",
+        "Regular thyroid function monitoring every 6-12 months",
+        "Ensure adequate iodine and selenium in diet"
+      ]
+    },
+    "timestamp": "2026-02-27T14:59:04.871078"
+  },
+  {
+    "disease": "thyroid",
+    "input": {
+      "age": 40,
+      "sex": "Male",
+      "on_thyroxine": "No",
+      "query_on_thyroxine": "No",
+      "on_antithyroid_meds": "No",
+      "sick": "No",
+      "pregnant": "No",
+      "thyroid_surgery": "No",
+      "I131_treatment": "No",
+      "query_hypothyroid": "No",
+      "query_hyperthyroid": "No",
+      "lithium": "No",
+      "goitre": "No",
+      "tumor": "No",
+      "psych": "No",
+      "TSH": 2.5,
+      "T3": 1.5,
+      "TT4": 110.0,
+      "T4U": 1.0,
+      "FTI": 90.0,
+      "TBG": 10.0
+    },
+    "result": {
+      "disease": "Thyroid Disease",
+      "prediction": 1,
+      "predicted_class": "Hypothyroid",
+      "risk_score": 1.0,
+      "risk_percentage": 100.0,
+      "risk_level": "High",
+      "confidence": 1.0,
+      "class_probabilities": {
+        "Negative": 0.0,
+        "Hyperthyroid": 0.0,
+        "Hypothyroid": 1.0
+      },
+      "model_used": "RandomForest Thyroid Model (21 features, 3 classes)",
+      "recommendations": [
+        "\ud83d\udea8 Thyroid function abnormal \u2014 see an endocrinologist",
+        "Regular thyroid function monitoring every 6-12 months",
+        "Ensure adequate iodine and selenium in diet"
+      ]
+    },
+    "timestamp": "2026-02-27T14:59:05.067979"
+  },
+  {
+    "disease": "thyroid",
+    "input": {
+      "age": 40,
+      "sex": "Female",
+      "on_thyroxine": "No",
+      "query_on_thyroxine": "No",
+      "on_antithyroid_meds": "No",
+      "sick": "No",
+      "pregnant": "No",
+      "thyroid_surgery": "No",
+      "I131_treatment": "No",
+      "query_hypothyroid": "No",
+      "query_hyperthyroid": "No",
+      "lithium": "No",
+      "goitre": "No",
+      "tumor": "No",
+      "psych": "No",
+      "TSH": 2.5,
+      "T3": -1.5,
+      "TT4": 11.0,
+      "T4U": 1.0,
+      "FTI": 90.0,
+      "TBG": 20.0
+    },
+    "result": {
+      "disease": "Thyroid Disease",
+      "prediction": 1,
+      "predicted_class": "Hypothyroid",
+      "risk_score": 0.99,
+      "risk_percentage": 99.0,
+      "risk_level": "High",
+      "confidence": 0.87,
+      "class_probabilities": {
+        "Negative": 0.01,
+        "Hyperthyroid": 0.12,
+        "Hypothyroid": 0.87
+      },
+      "model_used": "RandomForest Thyroid Model (21 features, 3 classes)",
+      "recommendations": [
+        "\ud83d\udea8 Thyroid function abnormal \u2014 see an endocrinologist",
+        "Regular thyroid function monitoring every 6-12 months",
+        "Ensure adequate iodine and selenium in diet"
+      ]
+    },
+    "timestamp": "2026-02-27T14:59:38.254609"
+  },
+  {
+    "disease": "stroke",
+    "input": {
+      "gender": "Male",
+      "age": 50,
+      "hypertension": "No",
+      "heart_disease": "No",
+      "ever_married": "No",
+      "work_type": "Private",
+      "residence_type": "Urban",
+      "avg_glucose_level": 100.0,
+      "bmi": 25.0,
+      "smoking_status": "never smoked"
+    },
+    "result": {
+      "disease": "Stroke",
+      "prediction": 0,
+      "risk_score": 0.4167,
+      "risk_percentage": 41.67,
+      "risk_level": "Medium",
+      "confidence": 0.5,
+      "model_used": "Fallback Stroke Assessment",
+      "recommendations": [
+        "Please consult a specialist for stroke evaluation."
+      ]
+    },
+    "timestamp": "2026-02-27T16:26:09.604673"
+  },
+  {
+    "disease": "heart",
+    "input": {
+      "age": 50,
+      "sex": "Male",
+      "chest_pain": "Asymptomatic",
+      "resting_bp": 120,
+      "cholesterol": 200,
+      "fasting_blood_sugar": "No",
+      "resting_ecg": "Normal",
+      "max_heart_rate": 150,
+      "exercise_angina": "No",
+      "st_depression": 1.0,
+      "slope": "Flat",
+      "num_vessels": 0,
+      "thalassemia": "Normal"
+    },
+    "result": {
+      "disease": "Heart Disease",
+      "prediction": 1,
+      "risk_score": 0.9086,
+      "risk_percentage": 90.86,
+      "risk_level": "High",
+      "confidence": 0.9086,
+      "model_used": "XGBoost Heart Disease Model (17 features)",
+      "recommendations": [
+        "\ud83d\udea8 Immediate cardiology consultation recommended",
+        "Consider cardiac stress testing and angiography",
+        "Maintain regular cardiovascular exercise (30 min/day)",
+        "Follow a heart-healthy Mediterranean diet"
+      ]
+    },
+    "timestamp": "2026-02-27T16:35:34.610646"
+  },
+  {
+    "disease": "heart",
+    "input": {
+      "age": 40,
+      "sex": "Male",
+      "chest_pain": "Asymptomatic",
+      "resting_bp": 160,
+      "cholesterol": 200,
+      "fasting_blood_sugar": "Yes",
+      "resting_ecg": "Normal",
+      "max_heart_rate": 150,
+      "exercise_angina": "No",
+      "st_depression": 1.0,
+      "slope": "Flat",
+      "num_vessels": 0,
+      "thalassemia": "Normal"
+    },
+    "result": {
+      "disease": "Heart Disease",
+      "prediction": 1,
+      "risk_score": 0.8949,
+      "risk_percentage": 89.49,
+      "risk_level": "High",
+      "confidence": 0.8949,
+      "model_used": "XGBoost Heart Disease Model (17 features)",
+      "recommendations": [
+        "\ud83d\udea8 Immediate cardiology consultation recommended",
+        "Consider cardiac stress testing and angiography",
+        "Blood pressure is high \u2014 monitor regularly and consider antihypertensives",
+        "Maintain regular cardiovascular exercise (30 min/day)",
+        "Follow a heart-healthy Mediterranean diet"
+      ]
+    },
+    "timestamp": "2026-02-27T16:37:38.008967"
+  },
+  {
+    "disease": "comprehensive",
+    "input": {
+      "name": "",
+      "age": 40,
+      "sex": "Male",
+      "phone": "",
+      "latitude": null,
+      "longitude": null,
+      "chest_pain": "Asymptomatic",
+      "resting_bp": 120,
+      "cholesterol": 200,
+      "fasting_blood_sugar": "No",
+      "resting_ecg": "Normal",
+      "max_heart_rate": 150,
+      "exercise_angina": "No",
+      "st_depression": 1.0,
+      "slope": "Flat",
+      "num_vessels": 0,
+      "thalassemia": "Normal",
+      "blood_pressure": 80,
+      "specific_gravity": 1.02,
+      "albumin": 0.0,
+      "sugar": 0.0,
+      "blood_glucose": 120,
+      "blood_urea": 36.0,
+      "serum_creatinine": 1.2,
+      "sodium": 138.0,
+      "potassium": 4.5,
+      "hemoglobin": 15.0,
+      "packed_cell_volume": 44,
+      "wbc_count": 7800,
+      "rbc_count": 5.2,
+      "red_blood_cells": "normal",
+      "pus_cell": "normal",
+      "pus_cell_clumps": "notpresent",
+      "bacteria": "notpresent",
+      "hypertension": "No",
+      "heart_disease": "No",
+      "ever_married": "No",
+      "work_type": "Private",
+      "residence_type": "Urban",
+      "avg_glucose_level": 100.0,
+      "bmi": 25.0,
+      "smoking_status": "never smoked",
+      "pregnancies": 0,
+      "glucose": 120.0,
+      "skin_thickness": 20,
+      "insulin": 100.0,
+      "diabetes_pedigree": 0.5,
+      "total_bilirubin": 1.0,
+      "direct_bilirubin": 0.3,
+      "alkaline_phosphotase": 200,
+      "alamine_aminotransferase": 40,
+      "aspartate_aminotransferase": 35,
+      "total_proteins": 6.8,
+      "albumin_liver": 3.5,
+      "albumin_globulin_ratio": 1.0,
+      "on_thyroxine": "No",
+      "query_on_thyroxine": "No",
+      "on_antithyroid_meds": "No",
+      "sick": "No",
+      "pregnant": "No",
+      "thyroid_surgery": "No",
+      "I131_treatment": "No",
+      "query_hypothyroid": "No",
+      "query_hyperthyroid": "No",
+      "lithium": "No",
+      "goitre": "No",
+      "tumor": "No",
+      "psych": "No",
+      "TSH": 2.5,
+      "T3": 1.5,
+      "TT4": 110.0,
+      "T4U": 1.0,
+      "FTI": 110.0,
+      "TBG": 20.0
+    },
+    "result": {
+      "patient_id": "PAT-15D875CD",
+      "patient": {
+        "patient_id": "PAT-15D875CD",
+        "name": "",
+        "age": 40,
+        "sex": "Male",
+        "phone": "",
+        "latitude": null,
+        "longitude": null,
+        "created_at": "2026-02-27T18:37:19.609727"
+      },
+      "predictions": {
+        "heart": {
+          "disease": "Heart Disease",
+          "prediction": 1,
+          "risk_score": 0.9672,
+          "risk_percentage": 96.72,
+          "risk_level": "High",
+          "confidence": 0.9672,
+          "model_used": "XGBoost Heart Disease Model (17 features)",
+          "recommendations": [
+            "\ud83d\udea8 Immediate cardiology consultation recommended",
+            "Consider cardiac stress testing and angiography",
+            "Maintain regular cardiovascular exercise (30 min/day)",
+            "Follow a heart-healthy Mediterranean diet"
+          ]
+        },
+        "kidney": {
+          "disease": "Kidney Disease",
+          "prediction": 0,
+          "risk_score": 0.01,
+          "risk_percentage": 1.0,
+          "risk_level": "Low",
+          "confidence": 0.99,
+          "rf_probability": 0.01,
+          "cnn_probability": null,
+          "ensemble": false,
+          "model_used": "Random Forest (24 features)",
+          "recommendations": [
+            "Stay well hydrated \u2014 aim for 2-3 liters of water daily",
+            "Reduce sodium intake to less than 2000mg per day",
+            "Monitor blood pressure regularly"
+          ]
+        },
+        "stroke": {
+          "disease": "Stroke",
+          "prediction": 0,
+          "risk_score": 0.3333,
+          "risk_percentage": 33.33,
+          "risk_level": "Low",
+          "confidence": 0.5,
+          "model_used": "Fallback Stroke Assessment",
+          "recommendations": [
+            "Please consult a specialist for stroke evaluation."
+          ]
+        },
+        "diabetes": {
+          "disease": "Diabetes",
+          "prediction": 0,
+          "risk_score": 0.4795,
+          "risk_percentage": 47.95,
+          "risk_level": "Medium",
+          "confidence": 0.78,
+          "model_used": "Diabetes Assessment (8 features)",
+          "recommendations": [
+            "Follow a low-glycemic diet rich in fiber",
+            "Regular exercise \u2014 at least 150 minutes per week"
+          ]
+        },
+        "liver": {
+          "disease": "Liver Disease",
+          "prediction": 0,
+          "risk_score": 0.1897,
+          "risk_percentage": 18.97,
+          "risk_level": "Low",
+          "confidence": 0.75,
+          "model_used": "Liver Disease Assessment (10 features)",
+          "recommendations": [
+            "Avoid alcohol and hepatotoxic medications",
+            "Maintain a balanced diet with adequate protein",
+            "Get vaccinated for Hepatitis A and B"
+          ]
+        },
+        "thyroid": {
+          "disease": "Thyroid Disease",
+          "prediction": 1,
+          "predicted_class": "Hypothyroid",
+          "risk_score": 1.0,
+          "risk_percentage": 100.0,
+          "risk_level": "High",
+          "confidence": 1.0,
+          "class_probabilities": {
+            "Negative": 0.0,
+            "Hyperthyroid": 0.0,
+            "Hypothyroid": 1.0
+          },
+          "model_used": "RandomForest Thyroid Model (21 features, 3 classes)",
+          "recommendations": [
+            "\ud83d\udea8 Thyroid function abnormal \u2014 see an endocrinologist",
+            "Regular thyroid function monitoring every 6-12 months",
+            "Ensure adequate iodine and selenium in diet"
+          ]
+        }
+      },
+      "heart_risk": "96.72%",
+      "kidney_risk": "1.0%",
+      "stroke_risk": "33.33%",
+      "diabetes_risk": "47.95%",
+      "liver_risk": "18.97%",
+      "thyroid_status": "Hypothyroid",
+      "overall_risk_score": 0.4966,
+      "overall_risk_percentage": 49.66,
+      "highest_risk_condition": "thyroid",
+      "ai_explanation": "## Health Risk Assessment Summary\n\n\ud83d\udd34 **Heart**: 96.72% risk (High)\n\ud83d\udfe2 **Kidney**: 1.0% risk (Low)\n\ud83d\udfe2 **Stroke**: 33.33% risk (Low)\n\ud83d\udfe1 **Diabetes**: 47.95% risk (Medium)\n\ud83d\udfe2 **Liver**: 18.97% risk (Low)\n\ud83d\udd34 **Thyroid**: 100.0% risk (High)\n\n\ud83d\udca1 Please consult with a healthcare professional for a complete medical evaluation.",
+      "diet_plan": {
+        "diet_type": "Balanced Heart-Healthy Diet",
+        "daily_calories": "1800-2200",
+        "avoid_foods": [
+          "Excessive salt",
+          "Processed foods",
+          "Sugary drinks",
+          "Trans fats",
+          "Excessive alcohol"
+        ],
+        "weekly_plan": {
+          "Monday": {
+            "breakfast": "Oatmeal with fresh berries and nuts",
+            "lunch": "Grilled chicken salad with olive oil dressing",
+            "dinner": "Baked fish with steamed vegetables and brown rice",
+            "snacks": "Greek yogurt, mixed nuts, fresh fruits"
+          },
+          "Tuesday": {
+            "breakfast": "Oatmeal with fresh berries and nuts",
+            "lunch": "Grilled chicken salad with olive oil dressing",
+            "dinner": "Baked fish with steamed vegetables and brown rice",
+            "snacks": "Greek yogurt, mixed nuts, fresh fruits"
+          },
+          "Wednesday": {
+            "breakfast": "Oatmeal with fresh berries and nuts",
+            "lunch": "Grilled chicken salad with olive oil dressing",
+            "dinner": "Baked fish with steamed vegetables and brown rice",
+            "snacks": "Greek yogurt, mixed nuts, fresh fruits"
+          },
+          "Thursday": {
+            "breakfast": "Oatmeal with fresh berries and nuts",
+            "lunch": "Grilled chicken salad with olive oil dressing",
+            "dinner": "Baked fish with steamed vegetables and brown rice",
+            "snacks": "Greek yogurt, mixed nuts, fresh fruits"
+          },
+          "Friday": {
+            "breakfast": "Oatmeal with fresh berries and nuts",
+            "lunch": "Grilled chicken salad with olive oil dressing",
+            "dinner": "Baked fish with steamed vegetables and brown rice",
+            "snacks": "Greek yogurt, mixed nuts, fresh fruits"
+          },
+          "Saturday": {
+            "breakfast": "Oatmeal with fresh berries and nuts",
+            "lunch": "Grilled chicken salad with olive oil dressing",
+            "dinner": "Baked fish with steamed vegetables and brown rice",
+            "snacks": "Greek yogurt, mixed nuts, fresh fruits"
+          },
+          "Sunday": {
+            "breakfast": "Oatmeal with fresh berries and nuts",
+            "lunch": "Grilled chicken salad with olive oil dressing",
+            "dinner": "Baked fish with steamed vegetables and brown rice",
+            "snacks": "Greek yogurt, mixed nuts, fresh fruits"
+          }
+        },
+        "tips": [
+          "Drink at least 8 glasses of water daily",
+          "Eat 5 servings of fruits and vegetables daily",
+          "Limit sodium to less than 2000mg per day",
+          "Choose whole grains over refined grains",
+          "Include omega-3 fatty acids from fish or flaxseed"
+        ]
+      },
+      "doctor_recommendation": [],
+      "report_available": false,
+      "report_status": "Failed",
+      "models_used": 6,
+      "timestamp": "2026-02-27T18:37:28.472204"
+    },
+    "timestamp": "2026-02-27T18:37:28.474727"
+  },
+  {
+    "disease": "kidney",
+    "input": {
+      "age": 50,
+      "blood_pressure": 80,
+      "specific_gravity": 1.02,
+      "albumin": 0.0,
+      "sugar": 0.0,
+      "blood_glucose": 120,
+      "blood_urea": 36.0,
+      "serum_creatinine": 1.2,
+      "sodium": 138.0,
+      "potassium": 4.5,
+      "hemoglobin": 15.0,
+      "packed_cell_volume": 44,
+      "wbc_count": 7800,
+      "rbc_count": 5.2,
+      "red_blood_cells": "normal",
+      "pus_cell": "normal",
+      "pus_cell_clumps": "notpresent",
+      "bacteria": "notpresent",
+      "hypertension": "no",
+      "diabetes_mellitus": "no",
+      "coronary_artery_disease": "no",
+      "appetite": "good",
+      "pedal_edema": "no",
+      "anaemia": "no"
+    },
+    "result": {
+      "disease": "Kidney Disease",
+      "prediction": 0,
+      "risk_score": 0.01,
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "confidence": 0.99,
+      "rf_probability": 0.01,
+      "cnn_probability": null,
+      "ensemble": false,
+      "model_used": "Random Forest (24 features)",
+      "recommendations": [
+        "Stay well hydrated \u2014 aim for 2-3 liters of water daily",
+        "Reduce sodium intake to less than 2000mg per day",
+        "Monitor blood pressure regularly"
+      ]
+    },
+    "timestamp": "2026-02-27T18:38:02.622111"
+  },
+  {
+    "disease": "comprehensive",
+    "input": {
+      "name": "kallamadi suharshith",
+      "age": 20,
+      "sex": "Male",
+      "phone": "9963550757",
+      "latitude": 12.872073933909714,
+      "longitude": 80.2203745475499,
+      "chest_pain": "Asymptomatic",
+      "resting_bp": 120,
+      "cholesterol": 200,
+      "fasting_blood_sugar": "No",
+      "resting_ecg": "Normal",
+      "max_heart_rate": 150,
+      "exercise_angina": "No",
+      "st_depression": 1.0,
+      "slope": "Flat",
+      "num_vessels": 0,
+      "thalassemia": "Normal",
+      "blood_pressure": 80,
+      "specific_gravity": 1.02,
+      "albumin": 0.0,
+      "sugar": 0.0,
+      "blood_glucose": 120,
+      "blood_urea": 36.0,
+      "serum_creatinine": 1.2,
+      "sodium": 138.0,
+      "potassium": 4.5,
+      "hemoglobin": 15.0,
+      "packed_cell_volume": 44,
+      "wbc_count": 7800,
+      "rbc_count": 5.2,
+      "red_blood_cells": "normal",
+      "pus_cell": "normal",
+      "pus_cell_clumps": "notpresent",
+      "bacteria": "notpresent",
+      "hypertension": "No",
+      "heart_disease": "No",
+      "ever_married": "No",
+      "work_type": "Private",
+      "residence_type": "Urban",
+      "avg_glucose_level": 100.0,
+      "bmi": 25.0,
+      "smoking_status": "never smoked",
+      "pregnancies": 0,
+      "glucose": 120.0,
+      "skin_thickness": 20,
+      "insulin": 100.0,
+      "diabetes_pedigree": 0.5,
+      "total_bilirubin": 1.0,
+      "direct_bilirubin": 0.3,
+      "alkaline_phosphotase": 200,
+      "alamine_aminotransferase": 40,
+      "aspartate_aminotransferase": 35,
+      "total_proteins": 6.8,
+      "albumin_liver": 3.5,
+      "albumin_globulin_ratio": 1.0,
+      "on_thyroxine": "No",
+      "query_on_thyroxine": "No",
+      "on_antithyroid_meds": "No",
+      "sick": "No",
+      "pregnant": "No",
+      "thyroid_surgery": "No",
+      "I131_treatment": "No",
+      "query_hypothyroid": "No",
+      "query_hyperthyroid": "No",
+      "lithium": "No",
+      "goitre": "No",
+      "tumor": "No",
+      "psych": "No",
+      "TSH": 2.5,
+      "T3": 1.5,
+      "TT4": 110.0,
+      "T4U": 1.0,
+      "FTI": 110.0,
+      "TBG": 20.0
+    },
+    "result": {
+      "patient_id": "PAT-53FA59EA",
+      "patient": {
+        "patient_id": "PAT-53FA59EA",
+        "name": "kallamadi suharshith",
+        "age": 20,
+        "sex": "Male",
+        "phone": "9963550757",
+        "latitude": 12.872073933909714,
+        "longitude": 80.2203745475499,
+        "created_at": "2026-02-27T19:13:57.589195"
+      },
+      "predictions": {
+        "heart": {
+          "disease": "Heart Disease",
+          "prediction": 1,
+          "risk_score": 0.9672,
+          "risk_percentage": 96.72,
+          "risk_level": "High",
+          "confidence": 0.9672,
+          "model_used": "XGBoost Heart Disease Model (17 features)",
+          "recommendations": [
+            "\ud83d\udea8 Immediate cardiology consultation recommended",
+            "Consider cardiac stress testing and angiography",
+            "Maintain regular cardiovascular exercise (30 min/day)",
+            "Follow a heart-healthy Mediterranean diet"
+          ]
+        },
+        "kidney": {
+          "disease": "Kidney Disease",
+          "prediction": 0,
+          "risk_score": 0.01,
+          "risk_percentage": 1.0,
+          "risk_level": "Low",
+          "confidence": 0.99,
+          "rf_probability": 0.01,
+          "cnn_probability": null,
+          "ensemble": false,
+          "model_used": "Random Forest (24 features)",
+          "recommendations": [
+            "Stay well hydrated \u2014 aim for 2-3 liters of water daily",
+            "Reduce sodium intake to less than 2000mg per day",
+            "Monitor blood pressure regularly"
+          ]
+        },
+        "stroke": {
+          "disease": "Stroke",
+          "prediction": 0,
+          "risk_score": 0.1667,
+          "risk_percentage": 16.67,
+          "risk_level": "Low",
+          "confidence": 0.5,
+          "model_used": "Fallback Stroke Assessment",
+          "recommendations": [
+            "Please consult a specialist for stroke evaluation."
+          ]
+        },
+        "diabetes": {
+          "disease": "Diabetes",
+          "prediction": 0,
+          "risk_score": 0.442,
+          "risk_percentage": 44.2,
+          "risk_level": "Medium",
+          "confidence": 0.78,
+          "model_used": "Diabetes Assessment (8 features)",
+          "recommendations": [
+            "Follow a low-glycemic diet rich in fiber",
+            "Regular exercise \u2014 at least 150 minutes per week"
+          ]
+        },
+        "liver": {
+          "disease": "Liver Disease",
+          "prediction": 0,
+          "risk_score": 0.1797,
+          "risk_percentage": 17.97,
+          "risk_level": "Low",
+          "confidence": 0.75,
+          "model_used": "Liver Disease Assessment (10 features)",
+          "recommendations": [
+            "Avoid alcohol and hepatotoxic medications",
+            "Maintain a balanced diet with adequate protein",
+            "Get vaccinated for Hepatitis A and B"
+          ]
+        },
+        "thyroid": {
+          "disease": "Thyroid Disease",
+          "prediction": 1,
+          "predicted_class": "Hypothyroid",
+          "risk_score": 0.99,
+          "risk_percentage": 99.0,
+          "risk_level": "High",
+          "confidence": 0.99,
+          "class_probabilities": {
+            "Negative": 0.01,
+            "Hyperthyroid": 0.0,
+            "Hypothyroid": 0.99
+          },
+          "model_used": "RandomForest Thyroid Model (21 features, 3 classes)",
+          "recommendations": [
+            "\ud83d\udea8 Thyroid function abnormal \u2014 see an endocrinologist",
+            "Regular thyroid function monitoring every 6-12 months",
+            "Ensure adequate iodine and selenium in diet"
+          ]
+        }
+      },
+      "heart_risk": "96.72%",
+      "kidney_risk": "1.0%",
+      "stroke_risk": "16.67%",
+      "diabetes_risk": "44.2%",
+      "liver_risk": "17.97%",
+      "thyroid_status": "Hypothyroid",
+      "overall_risk_score": 0.4593,
+      "overall_risk_percentage": 45.93,
+      "highest_risk_condition": "thyroid",
+      "ai_explanation": "## Health Risk Assessment Summary\n\n\ud83d\udd34 **Heart**: 96.72% risk (High)\n\ud83d\udfe2 **Kidney**: 1.0% risk (Low)\n\ud83d\udfe2 **Stroke**: 16.67% risk (Low)\n\ud83d\udfe1 **Diabetes**: 44.2% risk (Medium)\n\ud83d\udfe2 **Liver**: 17.97% risk (Low)\n\ud83d\udd34 **Thyroid**: 99.0% risk (High)\n\n\ud83d\udca1 Please consult with a healthcare professional for a complete medical evaluation.",
+      "diet_plan": {
+        "diet_type": "Balanced Heart-Healthy Diet",
+        "daily_calories": "1800-2200",
+        "avoid_foods": [
+          "Excessive salt",
+          "Processed foods",
+          "Sugary drinks",
+          "Trans fats",
+          "Excessive alcohol"
+        ],
+        "weekly_plan": {
+          "Monday": {
+            "breakfast": "Oatmeal with fresh berries and nuts",
+            "lunch": "Grilled chicken salad with olive oil dressing",
+            "dinner": "Baked fish with steamed vegetables and brown rice",
+            "snacks": "Greek yogurt, mixed nuts, fresh fruits"
+          },
+          "Tuesday": {
+            "breakfast": "Oatmeal with fresh berries and nuts",
+            "lunch": "Grilled chicken salad with olive oil dressing",
+            "dinner": "Baked fish with steamed vegetables and brown rice",
+            "snacks": "Greek yogurt, mixed nuts, fresh fruits"
+          },
+          "Wednesday": {
+            "breakfast": "Oatmeal with fresh berries and nuts",
+            "lunch": "Grilled chicken salad with olive oil dressing",
+            "dinner": "Baked fish with steamed vegetables and brown rice",
+            "snacks": "Greek yogurt, mixed nuts, fresh fruits"
+          },
+          "Thursday": {
+            "breakfast": "Oatmeal with fresh berries and nuts",
+            "lunch": "Grilled chicken salad with olive oil dressing",
+            "dinner": "Baked fish with steamed vegetables and brown rice",
+            "snacks": "Greek yogurt, mixed nuts, fresh fruits"
+          },
+          "Friday": {
+            "breakfast": "Oatmeal with fresh berries and nuts",
+            "lunch": "Grilled chicken salad with olive oil dressing",
+            "dinner": "Baked fish with steamed vegetables and brown rice",
+            "snacks": "Greek yogurt, mixed nuts, fresh fruits"
+          },
+          "Saturday": {
+            "breakfast": "Oatmeal with fresh berries and nuts",
+            "lunch": "Grilled chicken salad with olive oil dressing",
+            "dinner": "Baked fish with steamed vegetables and brown rice",
+            "snacks": "Greek yogurt, mixed nuts, fresh fruits"
+          },
+          "Sunday": {
+            "breakfast": "Oatmeal with fresh berries and nuts",
+            "lunch": "Grilled chicken salad with olive oil dressing",
+            "dinner": "Baked fish with steamed vegetables and brown rice",
+            "snacks": "Greek yogurt, mixed nuts, fresh fruits"
+          }
+        },
+        "tips": [
+          "Drink at least 8 glasses of water daily",
+          "Eat 5 servings of fruits and vegetables daily",
+          "Limit sodium to less than 2000mg per day",
+          "Choose whole grains over refined grains",
+          "Include omega-3 fatty acids from fish or flaxseed"
+        ]
+      },
+      "doctor_recommendation": [
+        {
+          "condition": "heart",
+          "specialty": "Cardiologist",
+          "icon": "\ud83e\udec0",
+          "location": {
+            "latitude": 12.872073933909714,
+            "longitude": 80.2203745475499
+          },
+          "doctors": [
+            {
+              "name": "Search for Cardiologist near you",
+              "address": "Use Google Maps to find specialists",
+              "rating": "N/A",
+              "total_ratings": 0,
+              "is_open": null,
+              "maps_url": "https://www.google.com/maps/search/cardiologist hospital/@12.872073933909714,80.2203745475499,14z"
+            }
+          ],
+          "total_found": 0,
+          "source": "Fallback - API key not configured",
+          "search_url": "https://www.google.com/maps/search/cardiologist hospital/@12.872073933909714,80.2203745475499,14z"
+        },
+        {
+          "condition": "diabetes",
+          "specialty": "Endocrinologist",
+          "icon": "\ud83e\ude78",
+          "location": {
+            "latitude": 12.872073933909714,
+            "longitude": 80.2203745475499
+          },
+          "doctors": [
+            {
+              "name": "Search for Endocrinologist near you",
+              "address": "Use Google Maps to find specialists",
+              "rating": "N/A",
+              "total_ratings": 0,
+              "is_open": null,
+              "maps_url": "https://www.google.com/maps/search/endocrinologist diabetes clinic/@12.872073933909714,80.2203745475499,14z"
+            }
+          ],
+          "total_found": 0,
+          "source": "Fallback - API key not configured",
+          "search_url": "https://www.google.com/maps/search/endocrinologist diabetes clinic/@12.872073933909714,80.2203745475499,14z"
+        },
+        {
+          "condition": "thyroid",
+          "specialty": "Endocrinologist",
+          "icon": "\ud83e\udd8b",
+          "location": {
+            "latitude": 12.872073933909714,
+            "longitude": 80.2203745475499
+          },
+          "doctors": [
+            {
+              "name": "Search for Endocrinologist near you",
+              "address": "Use Google Maps to find specialists",
+              "rating": "N/A",
+              "total_ratings": 0,
+              "is_open": null,
+              "maps_url": "https://www.google.com/maps/search/endocrinologist thyroid clinic/@12.872073933909714,80.2203745475499,14z"
+            }
+          ],
+          "total_found": 0,
+          "source": "Fallback - API key not configured",
+          "search_url": "https://www.google.com/maps/search/endocrinologist thyroid clinic/@12.872073933909714,80.2203745475499,14z"
+        }
+      ],
+      "report_available": false,
+      "report_status": "Failed",
+      "models_used": 6,
+      "timestamp": "2026-02-27T19:14:15.912120"
+    },
+    "timestamp": "2026-02-27T19:14:15.913103"
+  },
+  {
+    "disease": "heart",
+    "input": {
+      "age": 50,
+      "sex": "Male",
+      "chest_pain": "Asymptomatic",
+      "resting_bp": 120,
+      "cholesterol": 200,
+      "fasting_blood_sugar": "No",
+      "resting_ecg": "Normal",
+      "max_heart_rate": 150,
+      "exercise_angina": "No",
+      "st_depression": 1.0,
+      "slope": "Flat",
+      "num_vessels": 0,
+      "thalassemia": "Normal"
+    },
+    "result": {
+      "disease": "Heart Disease",
+      "prediction": 1,
+      "risk_score": 0.9086,
+      "risk_percentage": 90.86,
+      "risk_level": "High",
+      "confidence": 0.9086,
+      "model_used": "XGBoost Heart Disease Model (17 features)",
+      "recommendations": [
+        "\ud83d\udea8 Immediate cardiology consultation recommended",
+        "Consider cardiac stress testing and angiography",
+        "Maintain regular cardiovascular exercise (30 min/day)",
+        "Follow a heart-healthy Mediterranean diet"
+      ]
+    },
+    "timestamp": "2026-02-27T19:14:49.379280"
+  },
+  {
+    "disease": "heart",
+    "input": {
+      "age": 55,
+      "sex": "Male",
+      "chest_pain": "Typical Angina",
+      "resting_bp": 120,
+      "cholesterol": 200,
+      "fasting_blood_sugar": "No",
+      "resting_ecg": "Normal",
+      "max_heart_rate": 150,
+      "exercise_angina": "No",
+      "st_depression": 1.0,
+      "slope": "Flat",
+      "num_vessels": 0,
+      "thalassemia": "Normal"
+    },
+    "result": {
+      "disease": "Heart Disease",
+      "prediction": 1,
+      "risk_score": 0.738,
+      "risk_percentage": 73.8,
+      "risk_level": "High",
+      "confidence": 0.738,
+      "model_used": "XGBoost Heart Disease Model (17 features)",
+      "recommendations": [
+        "\ud83d\udea8 Immediate cardiology consultation recommended",
+        "Consider cardiac stress testing and angiography",
+        "Maintain regular cardiovascular exercise (30 min/day)",
+        "Follow a heart-healthy Mediterranean diet"
+      ]
+    },
+    "timestamp": "2026-02-27T20:03:52.515730",
+    "user_id": "USR-6C201926"
+  },
+  {
+    "disease": "comprehensive",
+    "input": {
+      "name": "",
+      "age": 40,
+      "sex": "Male",
+      "phone": "",
+      "latitude": null,
+      "longitude": null,
+      "chest_pain": "Asymptomatic",
+      "resting_bp": 120,
+      "cholesterol": 200,
+      "fasting_blood_sugar": "No",
+      "resting_ecg": "Normal",
+      "max_heart_rate": 150,
+      "exercise_angina": "No",
+      "st_depression": 1.0,
+      "slope": "Flat",
+      "num_vessels": 0,
+      "thalassemia": "Normal",
+      "blood_pressure": 80,
+      "specific_gravity": 1.02,
+      "albumin": 0.0,
+      "sugar": 0.0,
+      "blood_glucose": 120,
+      "blood_urea": 36.0,
+      "serum_creatinine": 1.2,
+      "sodium": 138.0,
+      "potassium": 4.5,
+      "hemoglobin": 15.0,
+      "packed_cell_volume": 44,
+      "wbc_count": 7800,
+      "rbc_count": 5.2,
+      "red_blood_cells": "normal",
+      "pus_cell": "normal",
+      "pus_cell_clumps": "notpresent",
+      "bacteria": "notpresent",
+      "hypertension": "No",
+      "heart_disease": "No",
+      "ever_married": "No",
+      "work_type": "Private",
+      "residence_type": "Urban",
+      "avg_glucose_level": 100.0,
+      "bmi": 25.0,
+      "smoking_status": "never smoked",
+      "pregnancies": 0,
+      "glucose": 120.0,
+      "skin_thickness": 20,
+      "insulin": 100.0,
+      "diabetes_pedigree": 0.5,
+      "total_bilirubin": 1.0,
+      "direct_bilirubin": 0.3,
+      "alkaline_phosphotase": 200,
+      "alamine_aminotransferase": 40,
+      "aspartate_aminotransferase": 35,
+      "total_proteins": 6.8,
+      "albumin_liver": 3.5,
+      "albumin_globulin_ratio": 1.0,
+      "on_thyroxine": "No",
+      "query_on_thyroxine": "No",
+      "on_antithyroid_meds": "No",
+      "sick": "No",
+      "pregnant": "No",
+      "thyroid_surgery": "No",
+      "I131_treatment": "No",
+      "query_hypothyroid": "No",
+      "query_hyperthyroid": "No",
+      "lithium": "No",
+      "goitre": "No",
+      "tumor": "No",
+      "psych": "No",
+      "TSH": 2.5,
+      "T3": 1.5,
+      "TT4": 110.0,
+      "T4U": 1.0,
+      "FTI": 110.0,
+      "TBG": 20.0
+    },
+    "result": {
+      "patient_id": "PAT-26E3E271",
+      "patient": {
+        "patient_id": "PAT-26E3E271",
+        "name": "",
+        "age": 40,
+        "sex": "Male",
+        "phone": "",
+        "latitude": null,
+        "longitude": null,
+        "created_at": "2026-02-27T20:05:46.637104"
+      },
+      "predictions": {
+        "heart": {
+          "disease": "Heart Disease",
+          "prediction": 1,
+          "risk_score": 0.9672,
+          "risk_percentage": 96.72,
+          "risk_level": "High",
+          "confidence": 0.9672,
+          "model_used": "XGBoost Heart Disease Model (17 features)",
+          "recommendations": [
+            "\ud83d\udea8 Immediate cardiology consultation recommended",
+            "Consider cardiac stress testing and angiography",
+            "Maintain regular cardiovascular exercise (30 min/day)",
+            "Follow a heart-healthy Mediterranean diet"
+          ]
+        },
+        "kidney": {
+          "disease": "Kidney Disease",
+          "prediction": 0,
+          "risk_score": 0.01,
+          "risk_percentage": 1.0,
+          "risk_level": "Low",
+          "confidence": 0.99,
+          "rf_probability": 0.01,
+          "cnn_probability": null,
+          "ensemble": false,
+          "model_used": "Random Forest (24 features)",
+          "recommendations": [
+            "Stay well hydrated \u2014 aim for 2-3 liters of water daily",
+            "Reduce sodium intake to less than 2000mg per day",
+            "Monitor blood pressure regularly"
+          ]
+        },
+        "stroke": {
+          "disease": "Stroke",
+          "prediction": 0,
+          "risk_score": 0.3333,
+          "risk_percentage": 33.33,
+          "risk_level": "Low",
+          "confidence": 0.5,
+          "model_used": "Fallback Stroke Assessment",
+          "recommendations": [
+            "Please consult a specialist for stroke evaluation."
+          ]
+        },
+        "diabetes": {
+          "disease": "Diabetes",
+          "prediction": 0,
+          "risk_score": 0.4795,
+          "risk_percentage": 47.95,
+          "risk_level": "Medium",
+          "confidence": 0.78,
+          "model_used": "Diabetes Assessment (8 features)",
+          "recommendations": [
+            "Follow a low-glycemic diet rich in fiber",
+            "Regular exercise \u2014 at least 150 minutes per week"
+          ]
+        },
+        "liver": {
+          "disease": "Liver Disease",
+          "prediction": 0,
+          "risk_score": 0.1897,
+          "risk_percentage": 18.97,
+          "risk_level": "Low",
+          "confidence": 0.75,
+          "model_used": "Liver Disease Assessment (10 features)",
+          "recommendations": [
+            "Avoid alcohol and hepatotoxic medications",
+            "Maintain a balanced diet with adequate protein",
+            "Get vaccinated for Hepatitis A and B"
+          ]
+        },
+        "thyroid": {
+          "disease": "Thyroid Disease",
+          "prediction": 1,
+          "predicted_class": "Hypothyroid",
+          "risk_score": 1.0,
+          "risk_percentage": 100.0,
+          "risk_level": "High",
+          "confidence": 1.0,
+          "class_probabilities": {
+            "Negative": 0.0,
+            "Hyperthyroid": 0.0,
+            "Hypothyroid": 1.0
+          },
+          "model_used": "RandomForest Thyroid Model (21 features, 3 classes)",
+          "recommendations": [
+            "\ud83d\udea8 Thyroid function abnormal \u2014 see an endocrinologist",
+            "Regular thyroid function monitoring every 6-12 months",
+            "Ensure adequate iodine and selenium in diet"
+          ]
+        }
+      },
+      "heart_risk": "96.72%",
+      "kidney_risk": "1.0%",
+      "stroke_risk": "33.33%",
+      "diabetes_risk": "47.95%",
+      "liver_risk": "18.97%",
+      "thyroid_status": "Hypothyroid",
+      "overall_risk_score": 0.4966,
+      "overall_risk_percentage": 49.66,
+      "highest_risk_condition": "thyroid",
+      "ai_explanation": "## Health Risk Assessment Summary\n\n\ud83d\udd34 **Heart**: 96.72% risk (High)\n\ud83d\udfe2 **Kidney**: 1.0% risk (Low)\n\ud83d\udfe2 **Stroke**: 33.33% risk (Low)\n\ud83d\udfe1 **Diabetes**: 47.95% risk (Medium)\n\ud83d\udfe2 **Liver**: 18.97% risk (Low)\n\ud83d\udd34 **Thyroid**: 100.0% risk (High)\n\n\ud83d\udca1 Please consult with a healthcare professional for a complete medical evaluation.",
+      "diet_plan": {
+        "diet_type": "Balanced Heart-Healthy Diet",
+        "daily_calories": "1800-2200",
+        "avoid_foods": [
+          "Excessive salt",
+          "Processed foods",
+          "Sugary drinks",
+          "Trans fats",
+          "Excessive alcohol"
+        ],
+        "weekly_plan": {
+          "Monday": {
+            "breakfast": "Oatmeal with fresh berries and nuts",
+            "lunch": "Grilled chicken salad with olive oil dressing",
+            "dinner": "Baked fish with steamed vegetables and brown rice",
+            "snacks": "Greek yogurt, mixed nuts, fresh fruits"
+          },
+          "Tuesday": {
+            "breakfast": "Oatmeal with fresh berries and nuts",
+            "lunch": "Grilled chicken salad with olive oil dressing",
+            "dinner": "Baked fish with steamed vegetables and brown rice",
+            "snacks": "Greek yogurt, mixed nuts, fresh fruits"
+          },
+          "Wednesday": {
+            "breakfast": "Oatmeal with fresh berries and nuts",
+            "lunch": "Grilled chicken salad with olive oil dressing",
+            "dinner": "Baked fish with steamed vegetables and brown rice",
+            "snacks": "Greek yogurt, mixed nuts, fresh fruits"
+          },
+          "Thursday": {
+            "breakfast": "Oatmeal with fresh berries and nuts",
+            "lunch": "Grilled chicken salad with olive oil dressing",
+            "dinner": "Baked fish with steamed vegetables and brown rice",
+            "snacks": "Greek yogurt, mixed nuts, fresh fruits"
+          },
+          "Friday": {
+            "breakfast": "Oatmeal with fresh berries and nuts",
+            "lunch": "Grilled chicken salad with olive oil dressing",
+            "dinner": "Baked fish with steamed vegetables and brown rice",
+            "snacks": "Greek yogurt, mixed nuts, fresh fruits"
+          },
+          "Saturday": {
+            "breakfast": "Oatmeal with fresh berries and nuts",
+            "lunch": "Grilled chicken salad with olive oil dressing",
+            "dinner": "Baked fish with steamed vegetables and brown rice",
+            "snacks": "Greek yogurt, mixed nuts, fresh fruits"
+          },
+          "Sunday": {
+            "breakfast": "Oatmeal with fresh berries and nuts",
+            "lunch": "Grilled chicken salad with olive oil dressing",
+            "dinner": "Baked fish with steamed vegetables and brown rice",
+            "snacks": "Greek yogurt, mixed nuts, fresh fruits"
+          }
+        },
+        "tips": [
+          "Drink at least 8 glasses of water daily",
+          "Eat 5 servings of fruits and vegetables daily",
+          "Limit sodium to less than 2000mg per day",
+          "Choose whole grains over refined grains",
+          "Include omega-3 fatty acids from fish or flaxseed"
+        ]
+      },
+      "doctor_recommendation": [],
+      "report_available": false,
+      "report_status": "Failed",
+      "models_used": 6,
+      "timestamp": "2026-02-27T20:05:57.380733"
+    },
+    "timestamp": "2026-02-27T20:05:57.381730",
+    "user_id": "USR-013B024C"
+  },
+  {
+    "disease": "heart",
+    "input": {
+      "age": 50,
+      "sex": "Male",
+      "chest_pain": "Asymptomatic",
+      "resting_bp": 120,
+      "cholesterol": 200,
+      "fasting_blood_sugar": "No",
+      "resting_ecg": "Normal",
+      "max_heart_rate": 150,
+      "exercise_angina": "No",
+      "st_depression": 1.0,
+      "slope": "Flat",
+      "num_vessels": 0,
+      "thalassemia": "Normal"
+    },
+    "result": {
+      "disease": "Heart Disease",
+      "prediction": 1,
+      "risk_score": 0.9086,
+      "risk_percentage": 90.86,
+      "risk_level": "High",
+      "confidence": 0.9086,
+      "model_used": "XGBoost Heart Disease Model (17 features)",
+      "recommendations": [
+        "\ud83d\udea8 Immediate cardiology consultation recommended",
+        "Consider cardiac stress testing and angiography",
+        "Maintain regular cardiovascular exercise (30 min/day)",
+        "Follow a heart-healthy Mediterranean diet"
+      ]
+    },
+    "timestamp": "2026-02-27T22:21:15.949325",
+    "user_id": "USR-013B024C"
+  },
+  {
+    "disease": "stroke",
+    "input": {
+      "gender": "Male",
+      "age": 55,
+      "hypertension": "Yes",
+      "heart_disease": "No",
+      "ever_married": "Yes",
+      "work_type": "Private",
+      "residence_type": "Urban",
+      "avg_glucose_level": 140.0,
+      "bmi": 28.0,
+      "smoking_status": "formerly smoked"
+    },
+    "result": {
+      "disease": "Stroke",
+      "prediction": 0,
+      "risk_score": 0.4583,
+      "risk_percentage": 45.83,
+      "risk_level": "Medium",
+      "confidence": 0.5,
+      "model_used": "Fallback Stroke Assessment",
+      "recommendations": [
+        "Please consult a specialist for stroke evaluation."
+      ]
+    },
+    "timestamp": "2026-02-28T02:56:43.882011"
+  },
+  {
+    "disease": "stroke",
+    "input": {
+      "gender": "Male",
+      "age": 50,
+      "hypertension": "No",
+      "heart_disease": "No",
+      "ever_married": "No",
+      "work_type": "Private",
+      "residence_type": "Urban",
+      "avg_glucose_level": 100.0,
+      "bmi": 25.0,
+      "smoking_status": "never smoked"
+    },
+    "result": {
+      "disease": "Stroke",
+      "prediction": 0,
+      "risk_score": 0.2862,
+      "risk_percentage": 28.62,
+      "risk_level": "Low",
+      "confidence": 0.7138,
+      "model_used": "CatBoost Stroke Model (11\u219217 features)",
+      "recommendations": [
+        "Quit smoking and limit alcohol consumption",
+        "Regular physical activity and stress management"
+      ]
+    },
+    "timestamp": "2026-02-28T03:32:21.833227",
+    "user_id": "USR-013B024C"
+  },
+  {
+    "disease": "stroke",
+    "input": {
+      "gender": "Male",
+      "age": 70,
+      "hypertension": "No",
+      "heart_disease": "No",
+      "ever_married": "No",
+      "work_type": "Private",
+      "residence_type": "Urban",
+      "avg_glucose_level": 100.0,
+      "bmi": 60.0,
+      "smoking_status": "smokes"
+    },
+    "result": {
+      "disease": "Stroke",
+      "prediction": 1,
+      "risk_score": 0.7837,
+      "risk_percentage": 78.37,
+      "risk_level": "High",
+      "confidence": 0.7837,
+      "model_used": "CatBoost Stroke Model (11\u219217 features)",
+      "recommendations": [
+        "\ud83d\udea8 High stroke risk \u2014 seek neurological evaluation",
+        "BMI indicates obesity \u2014 weight management program recommended",
+        "Quit smoking and limit alcohol consumption",
+        "Regular physical activity and stress management"
+      ]
+    },
+    "timestamp": "2026-02-28T03:32:51.832300",
+    "user_id": "USR-013B024C"
+  },
+  {
+    "disease": "stroke",
+    "input": {
+      "gender": "Male",
+      "age": 49,
+      "hypertension": "No",
+      "heart_disease": "No",
+      "ever_married": "No",
+      "work_type": "Private",
+      "residence_type": "Urban",
+      "avg_glucose_level": 100.0,
+      "bmi": 60.0,
+      "smoking_status": "never smoked"
+    },
+    "result": {
+      "disease": "Stroke",
+      "prediction": 0,
+      "risk_score": 0.1991,
+      "risk_percentage": 19.91,
+      "risk_level": "Low",
+      "confidence": 0.8009,
+      "model_used": "CatBoost Stroke Model (11\u219217 features)",
+      "recommendations": [
+        "BMI indicates obesity \u2014 weight management program recommended",
+        "Quit smoking and limit alcohol consumption",
+        "Regular physical activity and stress management"
+      ]
+    },
+    "timestamp": "2026-02-28T03:33:07.967106",
+    "user_id": "USR-013B024C"
+  },
+  {
+    "disease": "stroke",
+    "input": {
+      "gender": "Male",
+      "age": 49,
+      "hypertension": "No",
+      "heart_disease": "Yes",
+      "ever_married": "No",
+      "work_type": "Private",
+      "residence_type": "Urban",
+      "avg_glucose_level": 100.0,
+      "bmi": 20.0,
+      "smoking_status": "smokes"
+    },
+    "result": {
+      "disease": "Stroke",
+      "prediction": 1,
+      "risk_score": 0.4442,
+      "risk_percentage": 44.42,
+      "risk_level": "Medium",
+      "confidence": 0.5558,
+      "model_used": "CatBoost Stroke Model (11\u219217 features)",
+      "recommendations": [
+        "Quit smoking and limit alcohol consumption",
+        "Regular physical activity and stress management"
+      ]
+    },
+    "timestamp": "2026-02-28T03:33:26.512552",
+    "user_id": "USR-013B024C"
+  },
+  {
+    "disease": "stroke",
+    "input": {
+      "gender": "Male",
+      "age": 49,
+      "hypertension": "No",
+      "heart_disease": "No",
+      "ever_married": "No",
+      "work_type": "Private",
+      "residence_type": "Urban",
+      "avg_glucose_level": 100.0,
+      "bmi": 20.0,
+      "smoking_status": "smokes"
+    },
+    "result": {
+      "disease": "Stroke",
+      "prediction": 1,
+      "risk_score": 0.3657,
+      "risk_percentage": 36.57,
+      "risk_level": "Medium",
+      "confidence": 0.6343,
+      "model_used": "CatBoost Stroke Model (11\u219217 features)",
+      "recommendations": [
+        "Quit smoking and limit alcohol consumption",
+        "Regular physical activity and stress management"
+      ]
+    },
+    "timestamp": "2026-02-28T03:33:49.961398",
+    "user_id": "USR-013B024C"
+  },
+  {
+    "disease": "stroke",
+    "input": {
+      "gender": "Male",
+      "age": 49,
+      "hypertension": "No",
+      "heart_disease": "Yes",
+      "ever_married": "No",
+      "work_type": "Private",
+      "residence_type": "Urban",
+      "avg_glucose_level": 100.0,
+      "bmi": 20.0,
+      "smoking_status": "smokes"
+    },
+    "result": {
+      "disease": "Stroke",
+      "prediction": 1,
+      "risk_score": 0.4442,
+      "risk_percentage": 44.42,
+      "risk_level": "Medium",
+      "confidence": 0.5558,
+      "model_used": "CatBoost Stroke Model (11\u219217 features)",
+      "recommendations": [
+        "Quit smoking and limit alcohol consumption",
+        "Regular physical activity and stress management"
+      ]
+    },
+    "timestamp": "2026-02-28T03:33:54.180309",
+    "user_id": "USR-013B024C"
+  },
+  {
+    "disease": "brain",
+    "input": {
+      "model": "DenseNet-121",
+      "filename": "318a6270-b303-4c17-b35e-d0668428395c.jpg"
+    },
+    "result": {
+      "disease": "Brain Tumor",
+      "prediction": 1,
+      "predicted_class": "pituitary",
+      "risk_score": 0.9693,
+      "risk_percentage": 96.93,
+      "risk_level": "High",
+      "confidence": 0.9693,
+      "probabilities": {
+        "glioma": 4.727692430606112e-05,
+        "meningioma": 0.03048301488161087,
+        "notumor": 0.00012400625564623624,
+        "pituitary": 0.9693456888198853
+      },
+      "model_used": "DenseNet-121 (Brain Tumor Detection)",
+      "recommendations": [
+        "\ud83d\udea8 Potential pituitary detected. Immediate neurosurgical consultation required.",
+        "Patient should undergo contrast-enhanced MRI for better visualization.",
+        "Monitor for symptoms like persistent headaches, seizures, or vision changes.",
+        "Maintain a healthy lifestyle and regular neurological check-ups."
+      ]
+    },
+    "timestamp": "2026-02-28T04:07:09.132990",
+    "user_id": "USR-013B024C"
+  },
+  {
+    "disease": "brain",
+    "input": {
+      "model": "DenseNet-121",
+      "filename": "Te-me_0053.jpg"
+    },
+    "result": {
+      "disease": "Brain Tumor",
+      "prediction": 1,
+      "predicted_class": "meningioma",
+      "risk_score": 0.9996,
+      "risk_percentage": 99.96,
+      "risk_level": "High",
+      "confidence": 0.9996,
+      "probabilities": {
+        "glioma": 2.0069357560714707e-05,
+        "meningioma": 0.9996340274810791,
+        "notumor": 0.00016700262494850904,
+        "pituitary": 0.00017898407531902194
+      },
+      "model_used": "DenseNet-121 (Brain Tumor Detection)",
+      "recommendations": [
+        "\ud83d\udea8 Potential meningioma detected. Immediate neurosurgical consultation required.",
+        "Patient should undergo contrast-enhanced MRI for better visualization.",
+        "Monitor for symptoms like persistent headaches, seizures, or vision changes.",
+        "Maintain a healthy lifestyle and regular neurological check-ups."
+      ]
+    },
+    "timestamp": "2026-02-28T04:07:37.758122",
+    "user_id": "USR-013B024C"
+  },
+  {
+    "disease": "brain",
+    "input": {
+      "model": "DenseNet-121",
+      "filename": "Te-me_0053.jpg"
+    },
+    "result": {
+      "disease": "Brain Tumor",
+      "prediction": 1,
+      "predicted_class": "meningioma",
+      "risk_score": 0.9996,
+      "risk_percentage": 99.96,
+      "risk_level": "High",
+      "confidence": 0.9996,
+      "probabilities": {
+        "glioma": 2.0069357560714707e-05,
+        "meningioma": 0.9996340274810791,
+        "notumor": 0.00016700262494850904,
+        "pituitary": 0.00017898407531902194
+      },
+      "model_used": "DenseNet-121 (Brain Tumor Detection)",
+      "recommendations": [
+        "\ud83d\udea8 Potential meningioma detected. Immediate neurosurgical consultation required.",
+        "Patient should undergo contrast-enhanced MRI for better visualization.",
+        "Monitor for symptoms like persistent headaches, seizures, or vision changes.",
+        "Maintain a healthy lifestyle and regular neurological check-ups."
+      ]
+    },
+    "timestamp": "2026-02-28T04:07:44.754791",
+    "user_id": "USR-013B024C"
+  },
+  {
+    "disease": "brain",
+    "input": {
+      "model": "DenseNet-121",
+      "filename": "318a6270-b303-4c17-b35e-d0668428395c.jpg"
+    },
+    "result": {
+      "disease": "Brain Tumor",
+      "prediction": 1,
+      "predicted_class": "pituitary",
+      "risk_score": 0.9693,
+      "risk_percentage": 96.93,
+      "risk_level": "High",
+      "confidence": 0.9693,
+      "probabilities": {
+        "glioma": 4.727692430606112e-05,
+        "meningioma": 0.03048301488161087,
+        "notumor": 0.00012400625564623624,
+        "pituitary": 0.9693456888198853
+      },
+      "model_used": "DenseNet-121 (Brain Tumor Detection)",
+      "recommendations": [
+        "\ud83d\udea8 Potential pituitary detected. Immediate neurosurgical consultation required.",
+        "Patient should undergo contrast-enhanced MRI for better visualization.",
+        "Monitor for symptoms like persistent headaches, seizures, or vision changes.",
+        "Maintain a healthy lifestyle and regular neurological check-ups."
+      ]
+    },
+    "timestamp": "2026-02-28T04:08:00.605556",
+    "user_id": "USR-013B024C"
+  },
+  {
+    "disease": "brain",
+    "input": {
+      "model": "DenseNet-121",
+      "filename": "Te-no_0024.jpg"
+    },
+    "result": {
+      "disease": "Brain Tumor",
+      "prediction": 0,
+      "predicted_class": "notumor",
+      "risk_score": 0.0024,
+      "risk_percentage": 0.24,
+      "risk_level": "Low",
+      "confidence": 0.9976,
+      "probabilities": {
+        "glioma": 0.00018836015078704804,
+        "meningioma": 0.001325445482507348,
+        "notumor": 0.9975800514221191,
+        "pituitary": 0.0009060025913640857
+      },
+      "model_used": "DenseNet-121 (Brain Tumor Detection)",
+      "recommendations": [
+        "\u2705 No tumor detected with high confidence",
+        "Maintain a healthy lifestyle and regular neurological check-ups."
+      ]
+    },
+    "timestamp": "2026-02-28T04:08:15.869793",
+    "user_id": "USR-013B024C"
+  },
+  {
+    "disease": "kidney",
+    "input": {
+      "age": 50,
+      "blood_pressure": 80,
+      "specific_gravity": 1.02,
+      "albumin": 0.0,
+      "sugar": 0.0,
+      "blood_glucose": 120,
+      "blood_urea": 36.0,
+      "serum_creatinine": 1.2,
+      "sodium": 138.0,
+      "potassium": 4.5,
+      "hemoglobin": 15.0,
+      "packed_cell_volume": 44,
+      "wbc_count": 8000,
+      "rbc_count": 5.2,
+      "red_blood_cells": "normal",
+      "pus_cell": "normal",
+      "pus_cell_clumps": "notpresent",
+      "bacteria": "notpresent",
+      "hypertension": "no",
+      "diabetes_mellitus": "no",
+      "coronary_artery_disease": "no",
+      "appetite": "good",
+      "pedal_edema": "no",
+      "anaemia": "no"
+    },
+    "result": {
+      "disease": "Kidney Disease",
+      "prediction": 0,
+      "risk_score": 0.01,
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "confidence": 0.99,
+      "rf_probability": 0.01,
+      "cnn_probability": null,
+      "ensemble": false,
+      "model_used": "Random Forest (24 features)",
+      "recommendations": [
+        "Stay well hydrated \u2014 aim for 2-3 liters of water daily",
+        "Reduce sodium intake to less than 2000mg per day",
+        "Monitor blood pressure regularly"
+      ]
+    },
+    "timestamp": "2026-02-28T04:34:08.451430",
+    "user_id": "USR-013B024C"
+  },
+  {
+    "disease": "kidney",
+    "input": {
+      "age": 50,
+      "blood_pressure": 80,
+      "specific_gravity": 1.02,
+      "albumin": 0.0,
+      "sugar": 0.0,
+      "blood_glucose": 120,
+      "blood_urea": 36.0,
+      "serum_creatinine": 1.2,
+      "sodium": 138.0,
+      "potassium": 4.5,
+      "hemoglobin": 15.0,
+      "packed_cell_volume": 44,
+      "wbc_count": 7800,
+      "rbc_count": 5.2,
+      "red_blood_cells": "normal",
+      "pus_cell": "normal",
+      "pus_cell_clumps": "notpresent",
+      "bacteria": "notpresent",
+      "hypertension": "no",
+      "diabetes_mellitus": "no",
+      "coronary_artery_disease": "no",
+      "appetite": "good",
+      "pedal_edema": "no",
+      "anaemia": "no"
+    },
+    "result": {
+      "disease": "Kidney Disease",
+      "prediction": 0,
+      "risk_score": 0.01,
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "confidence": 0.99,
+      "rf_probability": 0.01,
+      "cnn_probability": null,
+      "ensemble": false,
+      "model_used": "Random Forest (24 features)",
+      "recommendations": [
+        "Stay well hydrated \u2014 aim for 2-3 liters of water daily",
+        "Reduce sodium intake to less than 2000mg per day",
+        "Monitor blood pressure regularly"
+      ]
+    },
+    "timestamp": "2026-02-28T04:36:21.669469",
+    "user_id": "USR-013B024C"
+  },
+  {
+    "disease": "kidney",
+    "input": {
+      "age": 50,
+      "blood_pressure": 80,
+      "specific_gravity": 1.02,
+      "albumin": 0.0,
+      "sugar": 0.0,
+      "blood_glucose": 120,
+      "blood_urea": 36.0,
+      "serum_creatinine": 1.2,
+      "sodium": 138.0,
+      "potassium": 4.5,
+      "hemoglobin": 15.0,
+      "packed_cell_volume": 44,
+      "wbc_count": 7800,
+      "rbc_count": 5.2,
+      "red_blood_cells": "normal",
+      "pus_cell": "normal",
+      "pus_cell_clumps": "notpresent",
+      "bacteria": "notpresent",
+      "hypertension": "no",
+      "diabetes_mellitus": "no",
+      "coronary_artery_disease": "no",
+      "appetite": "good",
+      "pedal_edema": "no",
+      "anaemia": "no"
+    },
+    "result": {
+      "disease": "Kidney Disease",
+      "prediction": 0,
+      "risk_score": 0.01,
+      "risk_percentage": 1.0,
+      "risk_level": "Low",
+      "confidence": 0.99,
+      "rf_probability": 0.01,
+      "cnn_probability": null,
+      "ensemble": false,
+      "model_used": "Random Forest (24 features)",
+      "recommendations": [
+        "Stay well hydrated \u2014 aim for 2-3 liters of water daily",
+        "Reduce sodium intake to less than 2000mg per day",
+        "Monitor blood pressure regularly"
+      ]
+    },
+    "timestamp": "2026-02-28T04:42:33.111310"
+  },
+  {
+    "disease": "brain",
+    "input": {
+      "model": "DenseNet-121",
+      "filename": "Te-no_0024.jpg"
+    },
+    "result": {
+      "disease": "Brain Tumor",
+      "prediction": 0,
+      "predicted_class": "notumor",
+      "risk_score": 0.0024,
+      "risk_percentage": 0.24,
+      "risk_level": "Low",
+      "confidence": 0.9976,
+      "probabilities": {
+        "glioma": 0.00018836015078704804,
+        "meningioma": 0.001325445482507348,
+        "notumor": 0.9975800514221191,
+        "pituitary": 0.0009060025913640857
+      },
+      "model_used": "DenseNet-121 (Brain Tumor Detection)",
+      "recommendations": [
+        "\u2705 No tumor detected with high confidence",
+        "Maintain a healthy lifestyle and regular neurological check-ups."
+      ]
+    },
+    "timestamp": "2026-02-28T05:47:46.067574",
+    "user_id": "USR-013B024C"
+  },
+  {
+    "disease": "comprehensive",
+    "input": {
+      "name": "Test Patient",
+      "age": 40,
+      "sex": "Male",
+      "phone": "9999999999",
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "chest_pain": "Asymptomatic",
+      "resting_bp": 120,
+      "cholesterol": 200,
+      "fasting_blood_sugar": "No",
+      "resting_ecg": "Normal",
+      "max_heart_rate": 150,
+      "exercise_angina": "No",
+      "st_depression": 1.0,
+      "slope": "Flat",
+      "num_vessels": 0,
+      "thalassemia": "Normal",
+      "blood_pressure": 80,
+      "specific_gravity": 1.02,
+      "albumin": 0.0,
+      "sugar": 0.0,
+      "blood_glucose": 120,
+      "blood_urea": 36.0,
+      "serum_creatinine": 1.2,
+      "sodium": 138.0,
+      "potassium": 4.5,
+      "hemoglobin": 15.0,
+      "packed_cell_volume": 44,
+      "wbc_count": 7800,
+      "rbc_count": 5.2,
+      "red_blood_cells": "normal",
+      "pus_cell": "normal",
+      "pus_cell_clumps": "notpresent",
+      "bacteria": "notpresent",
+      "hypertension": "No",
+      "heart_disease": "No",
+      "ever_married": "No",
+      "work_type": "Private",
+      "residence_type": "Urban",
+      "avg_glucose_level": 100.0,
+      "bmi": 25.0,
+      "smoking_status": "never smoked",
+      "pregnancies": 0,
+      "glucose": 120.0,
+      "skin_thickness": 20,
+      "insulin": 100.0,
+      "diabetes_pedigree": 0.5,
+      "brain_mri_base64": "",
+      "on_thyroxine": "No",
+      "query_on_thyroxine": "No",
+      "on_antithyroid_meds": "No",
+      "sick": "No",
+      "pregnant": "No",
+      "thyroid_surgery": "No",
+      "I131_treatment": "No",
+      "query_hypothyroid": "No",
+      "query_hyperthyroid": "No",
+      "lithium": "No",
+      "goitre": "No",
+      "tumor": "No",
+      "psych": "No",
+      "TSH": 2.5,
+      "T3": 1.5,
+      "TT4": 110.0,
+      "T4U": 1.0,
+      "FTI": 110.0,
+      "TBG": 20.0
+    },
+    "result": {
+      "patient_id": "PAT-E5E98B72",
+      "patient": {
+        "patient_id": "PAT-E5E98B72",
+        "name": "Test Patient",
+        "age": 40,
+        "sex": "Male",
+        "phone": "9999999999",
+        "latitude": 12.9716,
+        "longitude": 77.5946,
+        "created_at": "2026-02-28T05:48:26.419430"
+      },
+      "predictions": {
+        "heart": {
+          "disease": "Heart Disease",
+          "prediction": 1,
+          "risk_score": 0.9672,
+          "risk_percentage": 96.72,
+          "risk_level": "High",
+          "confidence": 0.9672,
+          "model_used": "XGBoost Heart Disease Model (17 features)",
+          "recommendations": [
+            "\ud83d\udea8 Immediate cardiology consultation recommended",
+            "Consider cardiac stress testing and angiography",
+            "Maintain regular cardiovascular exercise (30 min/day)",
+            "Follow a heart-healthy Mediterranean diet"
+          ]
+        },
+        "kidney": {
+          "disease": "Kidney Disease",
+          "prediction": 0,
+          "risk_score": 0.01,
+          "risk_percentage": 1.0,
+          "risk_level": "Low",
+          "confidence": 0.99,
+          "rf_probability": 0.01,
+          "cnn_probability": null,
+          "ensemble": false,
+          "model_used": "Random Forest (24 features)",
+          "recommendations": [
+            "Stay well hydrated \u2014 aim for 2-3 liters of water daily",
+            "Reduce sodium intake to less than 2000mg per day",
+            "Monitor blood pressure regularly"
+          ]
+        },
+        "stroke": {
+          "disease": "Stroke",
+          "prediction": 0,
+          "risk_score": 0.1202,
+          "risk_percentage": 12.02,
+          "risk_level": "Low",
+          "confidence": 0.8798,
+          "model_used": "CatBoost Stroke Model (11\u219217 features)",
+          "recommendations": [
+            "Quit smoking and limit alcohol consumption",
+            "Regular physical activity and stress management"
+          ]
+        },
+        "diabetes": {
+          "disease": "Diabetes",
+          "prediction": 0,
+          "risk_score": 0.4795,
+          "risk_percentage": 47.95,
+          "risk_level": "Medium",
+          "confidence": 0.78,
+          "model_used": "Diabetes Assessment (8 features)",
+          "recommendations": [
+            "Follow a low-glycemic diet rich in fiber",
+            "Regular exercise \u2014 at least 150 minutes per week"
+          ]
+        },
+        "brain": {
+          "risk_level": "None",
+          "risk_percentage": 0,
+          "risk_score": 0.0,
+          "predicted_class": "Not Provided"
+        },
+        "thyroid": {
+          "disease": "Thyroid Disease",
+          "prediction": 1,
+          "predicted_class": "Hypothyroid",
+          "risk_score": 1.0,
+          "risk_percentage": 100.0,
+          "risk_level": "High",
+          "confidence": 1.0,
+          "class_probabilities": {
+            "Negative": 0.0,
+            "Hyperthyroid": 0.0,
+            "Hypothyroid": 1.0
+          },
+          "model_used": "RandomForest Thyroid Model (21 features, 3 classes)",
+          "recommendations": [
+            "\ud83d\udea8 Thyroid function abnormal \u2014 see an endocrinologist",
+            "Regular thyroid function monitoring every 6-12 months",
+            "Ensure adequate iodine and selenium in diet"
+          ]
+        }
+      },
+      "heart_risk": "96.72%",
+      "kidney_risk": "1.0%",
+      "stroke_risk": "12.02%",
+      "diabetes_risk": "47.95%",
+      "brain_risk": "0%",
+      "thyroid_status": "Hypothyroid",
+      "overall_risk_score": 0.4295,
+      "overall_risk_percentage": 42.95,
+      "highest_risk_condition": "thyroid",
+      "ai_explanation": "## Health Risk Assessment Summary\n\n\ud83d\udd34 **Heart**: 96.72% risk (High)\n\ud83d\udfe2 **Kidney**: 1.0% risk (Low)\n\ud83d\udfe2 **Stroke**: 12.02% risk (Low)\n\ud83d\udfe1 **Diabetes**: 47.95% risk (Medium)\n\ud83d\udd34 **Brain**: 0% risk (None)\n\ud83d\udd34 **Thyroid**: 100.0% risk (High)\n\n\ud83d\udca1 Please consult with a healthcare professional for a complete medical evaluation.",
+      "diet_plan": {
+        "diet_type": "Balanced Heart-Healthy Diet",
+        "daily_calories": "1800-2200",
+        "avoid_foods": [
+          "Excessive salt",
+          "Processed foods",
+          "Sugary drinks",
+          "Trans fats",
+          "Excessive alcohol"
+        ],
+        "weekly_plan": {
+          "Monday": {
+            "breakfast": "Oatmeal with fresh berries and nuts",
+            "lunch": "Grilled chicken salad with olive oil dressing",
+            "dinner": "Baked fish with steamed vegetables and brown rice",
+            "snacks": "Greek yogurt, mixed nuts, fresh fruits"
+          },
+          "Tuesday": {
+            "breakfast": "Oatmeal with fresh berries and nuts",
+            "lunch": "Grilled chicken salad with olive oil dressing",
+            "dinner": "Baked fish with steamed vegetables and brown rice",
+            "snacks": "Greek yogurt, mixed nuts, fresh fruits"
+          },
+          "Wednesday": {
+            "breakfast": "Oatmeal with fresh berries and nuts",
+            "lunch": "Grilled chicken salad with olive oil dressing",
+            "dinner": "Baked fish with steamed vegetables and brown rice",
+            "snacks": "Greek yogurt, mixed nuts, fresh fruits"
+          },
+          "Thursday": {
+            "breakfast": "Oatmeal with fresh berries and nuts",
+            "lunch": "Grilled chicken salad with olive oil dressing",
+            "dinner": "Baked fish with steamed vegetables and brown rice",
+            "snacks": "Greek yogurt, mixed nuts, fresh fruits"
+          },
+          "Friday": {
+            "breakfast": "Oatmeal with fresh berries and nuts",
+            "lunch": "Grilled chicken salad with olive oil dressing",
+            "dinner": "Baked fish with steamed vegetables and brown rice",
+            "snacks": "Greek yogurt, mixed nuts, fresh fruits"
+          },
+          "Saturday": {
+            "breakfast": "Oatmeal with fresh berries and nuts",
+            "lunch": "Grilled chicken salad with olive oil dressing",
+            "dinner": "Baked fish with steamed vegetables and brown rice",
+            "snacks": "Greek yogurt, mixed nuts, fresh fruits"
+          },
+          "Sunday": {
+            "breakfast": "Oatmeal with fresh berries and nuts",
+            "lunch": "Grilled chicken salad with olive oil dressing",
+            "dinner": "Baked fish with steamed vegetables and brown rice",
+            "snacks": "Greek yogurt, mixed nuts, fresh fruits"
+          }
+        },
+        "tips": [
+          "Drink at least 8 glasses of water daily",
+          "Eat 5 servings of fruits and vegetables daily",
+          "Limit sodium to less than 2000mg per day",
+          "Choose whole grains over refined grains",
+          "Include omega-3 fatty acids from fish or flaxseed"
+        ]
+      },
+      "doctor_recommendation": [
+        {
+          "condition": "heart",
+          "specialty": "Cardiologist",
+          "icon": "\ud83e\udec0",
+          "location": {
+            "latitude": 12.9716,
+            "longitude": 77.5946
+          },
+          "doctors": [
+            {
+              "name": "Search for Cardiologist near you",
+              "address": "Use Google Maps to find specialists",
+              "rating": "N/A",
+              "total_ratings": 0,
+              "is_open": null,
+              "maps_url": "https://www.google.com/maps/search/cardiologist hospital/@12.9716,77.5946,14z"
+            }
+          ],
+          "total_found": 0,
+          "source": "Fallback - API key not configured",
+          "search_url": "https://www.google.com/maps/search/cardiologist hospital/@12.9716,77.5946,14z"
+        },
+        {
+          "condition": "diabetes",
+          "specialty": "Endocrinologist",
+          "icon": "\ud83e\ude78",
+          "location": {
+            "latitude": 12.9716,
+            "longitude": 77.5946
+          },
+          "doctors": [
+            {
+              "name": "Search for Endocrinologist near you",
+              "address": "Use Google Maps to find specialists",
+              "rating": "N/A",
+              "total_ratings": 0,
+              "is_open": null,
+              "maps_url": "https://www.google.com/maps/search/endocrinologist diabetes clinic/@12.9716,77.5946,14z"
+            }
+          ],
+          "total_found": 0,
+          "source": "Fallback - API key not configured",
+          "search_url": "https://www.google.com/maps/search/endocrinologist diabetes clinic/@12.9716,77.5946,14z"
+        },
+        {
+          "condition": "thyroid",
+          "specialty": "Endocrinologist",
+          "icon": "\ud83e\udd8b",
+          "location": {
+            "latitude": 12.9716,
+            "longitude": 77.5946
+          },
+          "doctors": [
+            {
+              "name": "Search for Endocrinologist near you",
+              "address": "Use Google Maps to find specialists",
+              "rating": "N/A",
+              "total_ratings": 0,
+              "is_open": null,
+              "maps_url": "https://www.google.com/maps/search/endocrinologist thyroid clinic/@12.9716,77.5946,14z"
+            }
+          ],
+          "total_found": 0,
+          "source": "Fallback - API key not configured",
+          "search_url": "https://www.google.com/maps/search/endocrinologist thyroid clinic/@12.9716,77.5946,14z"
+        }
+      ],
+      "report_available": false,
+      "report_status": "Failed",
+      "models_used": 6,
+      "timestamp": "2026-02-28T05:48:36.190996"
+    },
+    "timestamp": "2026-02-28T05:48:36.200595"
+  },
+  {
+    "disease": "brain",
+    "input": {
+      "model": "DenseNet-121",
+      "filename": "Te-me_0053.jpg"
+    },
+    "result": {
+      "disease": "Brain Tumor",
+      "prediction": 1,
+      "predicted_class": "meningioma",
+      "risk_score": 0.9996,
+      "risk_percentage": 99.96,
+      "risk_level": "High",
+      "confidence": 0.9996,
+      "probabilities": {
+        "glioma": 2.0069357560714707e-05,
+        "meningioma": 0.9996340274810791,
+        "notumor": 0.00016700262494850904,
+        "pituitary": 0.00017898407531902194
+      },
+      "model_used": "DenseNet-121 (Brain Tumor Detection)",
+      "recommendations": [
+        "\ud83d\udea8 Potential meningioma detected. Immediate neurosurgical consultation required.",
+        "Patient should undergo contrast-enhanced MRI for better visualization.",
+        "Monitor for symptoms like persistent headaches, seizures, or vision changes.",
+        "Maintain a healthy lifestyle and regular neurological check-ups."
+      ]
+    },
+    "timestamp": "2026-02-28T05:49:11.480699",
+    "user_id": "USR-013B024C"
+  },
+  {
+    "disease": "brain",
+    "input": {
+      "model": "DenseNet-121",
+      "filename": "Te-no_0024.jpg"
+    },
+    "result": {
+      "disease": "Brain Tumor",
+      "prediction": 0,
+      "predicted_class": "notumor",
+      "risk_score": 0.0024,
+      "risk_percentage": 0.24,
+      "risk_level": "Low",
+      "confidence": 0.9976,
+      "probabilities": {
+        "glioma": 0.00018836015078704804,
+        "meningioma": 0.001325445482507348,
+        "notumor": 0.9975800514221191,
+        "pituitary": 0.0009060025913640857
+      },
+      "model_used": "DenseNet-121 (Brain Tumor Detection)",
+      "recommendations": [
+        "\u2705 No tumor detected with high confidence",
+        "Maintain a healthy lifestyle and regular neurological check-ups."
+      ]
+    },
+    "timestamp": "2026-02-28T06:16:20.117402"
+  },
+  {
+    "disease": "brain",
+    "input": {
+      "model": "DenseNet-121",
+      "filename": "Te-me_0053.jpg"
+    },
+    "result": {
+      "disease": "Brain Tumor",
+      "prediction": 1,
+      "predicted_class": "meningioma",
+      "risk_score": 0.9996,
+      "risk_percentage": 99.96,
+      "risk_level": "High",
+      "confidence": 0.9996,
+      "probabilities": {
+        "glioma": 2.0069357560714707e-05,
+        "meningioma": 0.9996340274810791,
+        "notumor": 0.00016700262494850904,
+        "pituitary": 0.00017898407531902194
+      },
+      "model_used": "DenseNet-121 (Brain Tumor Detection)",
+      "recommendations": [
+        "\ud83d\udea8 Potential meningioma detected. Immediate neurosurgical consultation required.",
+        "Patient should undergo contrast-enhanced MRI for better visualization.",
+        "Monitor for symptoms like persistent headaches, seizures, or vision changes.",
+        "Maintain a healthy lifestyle and regular neurological check-ups."
+      ]
+    },
+    "timestamp": "2026-02-28T06:16:20.320838"
+  },
+  {
+    "disease": "brain",
+    "input": {
+      "model": "DenseNet-121",
+      "filename": "Te-me_0053.jpg"
+    },
+    "result": {
+      "disease": "Brain Tumor",
+      "prediction": 1,
+      "predicted_class": "meningioma",
+      "risk_score": 0.9996,
+      "risk_percentage": 99.96,
+      "risk_level": "High",
+      "confidence": 0.9996,
+      "probabilities": {
+        "glioma": 2.0069357560714707e-05,
+        "meningioma": 0.9996340274810791,
+        "notumor": 0.00016700262494850904,
+        "pituitary": 0.00017898407531902194
+      },
+      "model_used": "DenseNet-121 (Brain Tumor Detection)",
+      "recommendations": [
+        "\ud83d\udea8 Potential meningioma detected. Immediate neurosurgical consultation required.",
+        "Patient should undergo contrast-enhanced MRI for better visualization.",
+        "Monitor for symptoms like persistent headaches, seizures, or vision changes.",
+        "Maintain a healthy lifestyle and regular neurological check-ups."
+      ]
+    },
+    "timestamp": "2026-02-28T06:16:24.999018"
+  },
+  {
+    "disease": "brain",
+    "input": {
+      "model": "DenseNet-121",
+      "filename": "Te-no_0024.jpg"
+    },
+    "result": {
+      "disease": "Brain Tumor",
+      "prediction": 0,
+      "predicted_class": "notumor",
+      "risk_score": 0.0024,
+      "risk_percentage": 0.24,
+      "risk_level": "Low",
+      "confidence": 0.9976,
+      "probabilities": {
+        "glioma": 0.00018836015078704804,
+        "meningioma": 0.001325445482507348,
+        "notumor": 0.9975800514221191,
+        "pituitary": 0.0009060025913640857
+      },
+      "model_used": "DenseNet-121 (Brain Tumor Detection)",
+      "recommendations": [
+        "\u2705 No tumor detected with high confidence",
+        "Maintain a healthy lifestyle and regular neurological check-ups."
+      ]
+    },
+    "timestamp": "2026-02-28T06:16:34.262148"
+  },
+  {
+    "disease": "stroke",
+    "input": {
+      "gender": "Male",
+      "age": 50,
+      "hypertension": "No",
+      "heart_disease": "No",
+      "ever_married": "No",
+      "work_type": "Private",
+      "residence_type": "Urban",
+      "avg_glucose_level": 100.0,
+      "bmi": 25.0,
+      "smoking_status": "never smoked"
+    },
+    "result": {
+      "disease": "Stroke",
+      "prediction": 0,
+      "risk_score": 0.2862,
+      "risk_percentage": 28.62,
+      "risk_level": "Low",
+      "confidence": 0.7138,
+      "model_used": "CatBoost Stroke Model (11\u219217 features)",
+      "recommendations": [
+        "Quit smoking and limit alcohol consumption",
+        "Regular physical activity and stress management"
+      ]
+    },
+    "timestamp": "2026-02-28T06:34:57.507191"
+  },
+  {
+    "disease": "heart",
+    "input": {
+      "age": 50,
+      "sex": "Male",
+      "chest_pain": "Asymptomatic",
+      "resting_bp": 120,
+      "cholesterol": 200,
+      "fasting_blood_sugar": "No",
+      "resting_ecg": "Normal",
+      "max_heart_rate": 150,
+      "exercise_angina": "No",
+      "st_depression": 1.0,
+      "slope": "Flat",
+      "num_vessels": 0,
+      "thalassemia": "Normal"
+    },
+    "result": {
+      "disease": "Heart Disease",
+      "prediction": 1,
+      "risk_score": 0.9086,
+      "risk_percentage": 90.86,
+      "risk_level": "High",
+      "confidence": 0.9086,
+      "model_used": "XGBoost Heart Disease Model (17 features)",
+      "recommendations": [
+        "\ud83d\udea8 Immediate cardiology consultation recommended",
+        "Consider cardiac stress testing and angiography",
+        "Maintain regular cardiovascular exercise (30 min/day)",
+        "Follow a heart-healthy Mediterranean diet"
+      ]
+    },
+    "timestamp": "2026-02-28T06:35:28.807613"
+  }
+]
